@@ -1,0 +1,62 @@
+/*TEXT
+body {
+  position: relative;
+  width: 251vh;
+  height: 141vh;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(117.65deg, rgba(8, 94, 208, 0) 13.61%, #008dd2 67.19%);
+}
+*/
+
+.main_title {
+  position: relative;
+  color: #ffffff;
+
+  height: 30px;
+  left: 64vh;
+  top: 72.3vh;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12vh;
+  line-height: 30px;
+  /* identical to box height, or 20% */
+}
+
+.sub_title {
+}
+
+/*BUTTON*/
+.user-answer_yes {
+  font-family: "Advent Pro", sans-serif;
+  height: 1000vh; /*확인*/
+  color: #fffff;
+}
+
+.user-answer_no {
+}
+
+/*Other Componants*/
+
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
