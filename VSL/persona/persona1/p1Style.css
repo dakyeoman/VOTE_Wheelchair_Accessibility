@@ -1,0 +1,253 @@
+.smallHi {
+  position: absolute;
+  width: 34.42vh;
+  height: 3.76vh;
+  left: 52.01vh;
+  top: 39.69vh;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7.03vh;
+  line-height: 30px;
+  /* identical to box height, or 54% */
+
+  color: #5e48b6;
+}
+
+.introHimself {
+  /* 안녕하세요. 저는 이영호라고 합니다. 8년 전 사고 이후 오른쪽 다리가 마비되었습니다. */
+
+  position: absolute;
+  width: 123.86vh;
+  height: 11.3vh;
+  left: 53.14vh;
+  top: 55.15vh;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.01vh;
+  line-height: 30px;
+  /* or 125% */
+
+  color: #000000;
+}
+
+.personaLine {
+  position: absolute;
+  width: 127.63vh;
+  height: 0px;
+  left: 49.37vh;
+  top: 73.74vh;
+
+  border: 1px solid #ffffff;
+}
+.goBack {
+  position: absolute;
+  width: 23.49vh;
+  height: 3.76vh;
+  left: 53.14vh;
+  top: 76.88vh;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.01vh;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #898989;
+}
+
+.clickToProceed {
+  position: absolute;
+  width: 23.49vh;
+  height: 3.76vh;
+  left: 162.43vh;
+  top: 77.51vh;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.01vh;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #5e48b6;
+}
+
+.ellipseProceed {
+  position: absolute;
+  width: 3.76vh;
+  height: 3.76vh;
+  left: 156.53vh;
+  top: 77vh;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  border-color: #5e48b6;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.persona1Loc {
+  position: absolute;
+  width: 60vh;
+  left: 90vh;
+  top: 79vh;
+  /*이미지가 바닥에 붙게*/
+}
+
+/*2*/
+.askUser1 {
+  /* 제가 휠체어를 타고 있어서 놀라셨나요? */
+  position: absolute;
+  height: 3.76vh;
+  left: 63.56vh;
+  top: 39.69vh;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7.03vh;
+  line-height: 30px;
+  /* identical to box height, or 54% */
+  color: #ffffff;
+}
+
+.answer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  color: #5e48b6;
+  /* identical to box height, or 75% */
+}
+
+.no {
+  position: absolute;
+  height: 3.76vh;
+  left: 73.36vh;
+  top: 61.93vh;
+}
+
+.yes {
+  position: absolute;
+  height: 3.76vh;
+  left: 138.31vh;
+  top: 61.93vh;
+}
+/*
+.lineUpper {
+  top: 51.0vh
+}
+*/
+.lineLeft {
+  position: absolute;
+  width: 15.20vh;s
+  height: 0px;
+  left: 73.36vh;
+  top: 66.5vh;
+  border: 1px solid #ffffff;
+}
+.lineRight {
+  position: absolute;
+  width: 23.86vh;
+  height: 0px;
+  left: 138.19vh;
+  top: 66.5vh;
+  border: 1px solid #ffffff;
+}
+
+.line_longer {
+  width: 25.68vh;
+}
+
+/*1.3*/
+
+.ask1_3 {
+  position: absolute;
+  width: 674px;
+  height: 30px;
+  left: 414px;
+  top: 294px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 30px;
+  /* identical to box height, or 54% */
+  
+  
+  color: #5E48B6;}
+
+.answer1_3{
+  position: absolute;
+  width: 986px;
+  height: 180px;
+  left: 414px;
+  top: 387px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* or 125% */
+  
+  
+  color: #000000;}
+
+.articleBox {
+    /* 3. Contained/A. Text */
+    box-sizing: border-box;
+
+  /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 6px 6px 8px;
+
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 1232px;
+    top: 279px;
+
+    border: 1px solid #5E48B6;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 40px;s
+  }
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    /* identical to box height, or 67% */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #5E48B6;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+.click2 {
+  left: 160.43vh;
+  top: 75.51vh;
+}
+.ellipse2 {
+  left: 154.53vh;
+  top: 75vh;
+}
+
+a {
+  text-decoration-line: none;}

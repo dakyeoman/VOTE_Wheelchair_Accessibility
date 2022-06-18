@@ -172,14 +172,13 @@
 }
 .time_main {
   position: absolute;
-
   height: 3.76vh;
   left: 49.49vh;
-  top: 55.3vh;
+  top: 75.3vh;
 
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 130px;
   line-height: 30px;
   /* identical to box height, or 21% */
