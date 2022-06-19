@@ -139,9 +139,9 @@
   left: 138.31vh;
   top: 61.93vh;
 }
-/*
-.lineUpper {
-  top: 51.0vh
+
+.lineUpper2 {
+  top: 51.00vh;
 }
 */
 .lineLeft {
@@ -251,3 +251,64 @@
 
 a {
   text-decoration-line: none;}
+
+/*p1-2answer1*/
+.answer_ohreally { 
+  position: absolute;
+  height: 3.76vh;
+  left: 104vh;
+  top: 39.69vh;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7.03vh;
+  line-height: 30px;
+  /* identical to box height, or 54% */
+  color: #FFFFFF;
+}
+/*p1-2answer2*/
+
+.answer_Isee {
+  position: absolute;
+  width: 29.27vh;
+  height: 3.76vh;
+  left: 104.14vh;
+  top: 39.69vh;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 30px;
+  /* identical to box height, or 54% */
+  color: #FFFFFF;
+}
+/*p1-4answer*/
+.answer_disappointed {
+  /* 아, 그래요..? (몸시 실망한 표정) */
+  position: absolute;
+  width: 92.46vh;
+  height: 3.76vh;
+  left: 75.25vh;
+  top: 39.69vh;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7.03vh;
+  line-height: 30px;
+  /* identical to box height, or 54% */
+  color: #FFFFFF;
+}
+.middle {
+  position: absolute;
+  width: 31.78vh;
+  height: 3.76vh;
+  left: 107.03vh;
+  top: 58.54vh;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5.02vh;
+  line-height: 30px;
+  /* identical to box height, or 75% */
+  color: #5E48B6;
+}

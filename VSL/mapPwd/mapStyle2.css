@@ -1,0 +1,300 @@
+/*강남*/
+.gangseo {
+  position: absolute;
+  width: 31.15vh;
+  height: 29.27vh;
+  left: 62.68vh;
+  top: 59vh;
+}
+
+.yangcheon {
+  position: absolute;
+  width: 18.96vh;
+  height: 16.45vh;
+  left: 77.01vh;
+  top: 80.27vh;
+}
+
+.guro {
+  position: absolute;
+  width: 182px;
+  height: 126.5px;
+  left: 596px;
+  top: 745.5px;
+  /* surface */
+  transform: rotate(1deg);
+}
+
+.youngdeongpo {
+  position: absolute;
+  width: 19.59vh;
+  height: 27.26vh;
+  left: 93.09vh;
+  top: 78.76vh;
+}
+
+.dongjak {
+  position: absolute;
+  width: 22.67vh;
+  height: 16.52vh;
+  left: 100vh;
+  top: 92.399vh;
+  /* surface */
+}
+
+.gwanak {
+  position: absolute;
+  width: 24.62vh;
+  height: 21.23vh;
+  left: 100.5vh;
+  top: 101vh;
+}
+
+.geomcheon {
+  position: absolute;
+  width: 14.25vh;
+  height: 19.28vh;
+  left: 91.5vh;
+  top: 103.5vh;
+}
+
+.seocho {
+  position: absolute;
+  width: 35.05vh;
+  height: 36.62vh;
+  left: 119vh;
+  top: 90.07vh;
+}
+
+.gangnam {
+  position: absolute;
+  width: 31.7211vh;
+  height: 28.957vh;
+  left: 129.8vh;
+  top: 88.06vh;
+}
+
+.songpa {
+  position: absolute;
+  width: 25.188vh;
+  height: 30.77vh;
+  left: 145vh;
+  top: 83.1658vh;
+}
+
+.gangdong {
+  position: absolute;
+  width: 19.221vh;
+  height: 22.613vh;
+  left: 157.8vh;
+  top: 71.4vh;
+}
+
+/*강북*/
+.mapo {
+  position: absolute;
+  width: 30.2763vh;
+  height: 24.246vh;
+  left: 87.1859vh;
+  top: 63.3165vh;
+}
+.yongsan {
+  position: absolute;
+  width: 19.2839vh;
+  height: 15.012vh;
+  left: 111.8vh;
+  top: 79vh;
+}
+.jung {
+  position: absolute;
+  width: 18.21vh;
+  height: 9.48vh;
+  left: 115.6vh;
+  top: 72.9vh;
+}
+.seongdong {
+  position: absolute;
+  width: 17.148vh;
+  height: 15.829vh;
+  left: 129.4vh;
+  top: 72.92vh;
+}
+.gwangjin {
+  position: absolute;
+  width: 13.944vh;
+  height: 17.71h;
+  left: 142.8vh;
+  top: 71.98vh;
+}
+.jungrang {
+  position: absolute;
+  width: 104px;
+  height: 152px;
+  left: 147vh;
+  top: 54.5vh;
+}
+
+/*oh wait...*/
+.eunpyeong {
+  position: absolute;
+  width: 23.11vh;
+  height: 30.59vh;
+  left: 96vh;
+  top: 39.8vh;
+}
+.seodeamoon {
+  position: absolute;
+  width: 16.89vh;
+  height: 18.02vh;
+  left: 101.7vh;
+  top: 60vh;
+}
+.jongro {
+  position: absolute;
+  width: 19.53vh;
+  height: 25.81vh;
+  left: 114.7vh;
+  top: 49vh;
+}
+.dongdeamoon {
+  position: absolute;
+  width: 15.13vh;
+  height: 17.46vh;
+  left: 133.5vh;
+  top: 60.4vh;
+}
+.seongbook {
+  position: absolute;
+  width: 27.82vh;
+  height: 24.05vh;
+  left: 120vh;
+  top: 47.5vh;
+}
+.gangbook {
+  position: absolute;
+  width: 18.71vh;
+  height: 28.26vh;
+  left: 123.5vh;
+  top: 29.89vh;
+}
+.noone {
+  position: absolute;
+  width: 19.34vh;
+  height: 32.66vh;
+  left: 140vh;
+  top: 25vh;
+}
+.dobong {
+  position: absolute;
+  width: 13.505vh;
+  height: 26.19vh;
+  left: 130vh;
+  top: 24.1vh;
+}
+
+.titletxt {
+  position: absolute;
+  width: 652px;
+  height: 30px;
+  left: 689px;
+  top: 86px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 30px;
+  /* identical to box height, or 50% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+}
+
+.index1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 210px;
+  top: 432px;
+
+  background: #c22c22;
+  /* surface */
+
+  border: 4px solid #ffffff;
+}
+
+.rate1 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  left: 297px;
+  top: 447px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  color: #c22c22;
+}
+.index2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 210px;
+  top: 510px;
+
+  background: #e48680;
+  /* surface */
+
+  border: 4px solid #ffffff;
+}
+
+.rate2 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  left: 297px;
+  top: 526px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  color: #c22c22;
+}
+
+.index3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 210px;
+  top: 589px;
+
+  background: #ffb8b4;
+  /* surface */
+
+  border: 4px solid #ffffff;
+}
+
+.rate3 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  left: 297px;
+  top: 605px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  color: #c22c22;
+}

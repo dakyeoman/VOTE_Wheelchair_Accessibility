@@ -1,0 +1,42 @@
+/*beforeMap*/
+.askAgain {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100px;
+  /* or 125% */
+  color: #ffffff;
+}
+.line1 {
+  position: absolute;
+  width: 714px;
+  height: 300px;
+  left: 589px;
+  top: 263px;
+}
+
+/*userinput*/
+.line2 {
+  position: absolute;
+  width: 649px;
+  height: 100px;
+  left: 589px;
+  top: 363px;
+  color: #5e48b6;
+}
+.line3 {
+  position: absolute;
+  width: 649px;
+  height: 100px;
+  left: 589px;
+  top: 463px;
+}
+
+.persona1Loc {
+  position: absolute;
+  width: 60vh;
+  left: 90vh;
+  top: 79vh;
+  /*이미지가 바닥에 붙게*/
+}
