@@ -11,6 +11,7 @@
   font-weight: 700;
   font-size: 12vh;
   line-height: 30px;
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
 }
 .sub_title {
   position: absolute;
@@ -18,20 +19,36 @@
   margin-bottom: 1vh;
   height: 3.92vh;
   left: 97.51vh;
-  top: 40.91vh;
+  top: 40vh;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 100px;
+  font-size: 90px;
   line-height: 30px;
 }
 
 .user-answer_no {
-  position: absolute;
+  position: relative;
+  width: 15vh;
   height: 3.76vh;
-  left: 73.3vh;
-  top: 107.66vh;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.025vh;
+  line-height: 30px;
+  /* identical to box height, or 75% */
+
+  color: #ffffff;
+}
+
+.user-answer_no2 {
+  position: absolute;
+  width: 15vh;
+  height: 3.76vh;
+  top: 0vh;
+  left: 0vh;
 
   font-family: "Roboto";
   font-style: normal;
@@ -44,11 +61,28 @@
 }
 
 .user-answer_yes {
-  position: absolute;
+  position: relative;
   width: 178px;
   height: 3.76px;
-  left: 152.63vh;
-  top: 107.66vh;
+  left: 78.63vh;
+  top: -4vh;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  /* identical to box height, or 75% */
+
+  color: #ffffff;
+}
+
+.user-answer_yes2 {
+  position: relative;
+  width: 178px;
+  height: 3.76px;
+  left: 0vh;
+  top: -3.8vh;
 
   font-family: "Roboto";
   font-style: normal;
@@ -64,9 +98,32 @@
   position: absolute;
   width: 54px;
   height: 54px;
-  left: 117.21vh;
-  top: 107.16vh;
+  left: 42vh;
+  top: -15px;
   border: 4px solid #ffffff;
+  border-radius: 50%;
+}
+
+.circle_no {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  left: 42vh;
+  top: -5.6vh;
+  opacity: 20%;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+}
+
+.circle_yes {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: -36.6vh;
+  top: -1.7vh;
+
+  border: 4px solid #ffffff;
+  opacity: 20%;
   border-radius: 50%;
 }
 
@@ -77,10 +134,10 @@
 
 .hr2 {
   position: absolute;
-  width: 15vh;
+  width: 21vh;
   height: 0px;
-  left: 152.63vh;
-  top: 112vh;
+  left: 0vh;
+  top: 3vh;
   border: 1px solid #ffffff;
 }
 
@@ -88,8 +145,8 @@
   position: absolute;
   width: 14vh;
   height: 0px;
-  left: 73.3vh;
-  top: 112vh;
+  left: 0vh;
+  top: 3vh;
 
   border: 1px solid #ffffff;
 }
@@ -121,11 +178,11 @@
 }
 
 .goToMap {
-  position: absolute;
+  position: relative;
   width: 194px;
   height: 30px;
-  left: 109.54vh;
-  top: 107.53vh;
+  left: 0vh;
+  top: 0vh;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -137,13 +194,78 @@
 }
 
 .hr3 {
-  position: absolute;
-  width: 17vh;
+  position: relative;
+  width: 24vh;
   height: 0px;
-  left: 110vh;
-  top: 112vh;
+  left: -0.3vh;
+  top: 1vh;
 
   border: 1px solid #ffffff;
+}
+
+.next {
+  position: absolute;
+  width: 194px;
+  height: 30px;
+  left: 109.54vh;
+  top: 107.53vh;
+}
+.next:hover .hr3 {
+  border: 1px solid #5e48b6;
+}
+.next:hover .goToMap {
+  color: #5e48b6;
+}
+
+/*시간이 얼마나 걸리셨나요*/
+.inputClick {
+  position: relative;
+  width: 148px;
+  height: 30px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  /* identical to box height, or 75% */
+  color: #ffffff;
+}
+
+.hr4 {
+  position: relative;
+  width: 144px;
+  height: 0px;
+  left: 0;
+  top: 1vh;
+
+  border: 1px solid #ffffff;
+}
+
+.hr5 {
+  position: relative;
+  width: 100px;
+  height: 0px;
+  left: -10vh;
+  top: -1.2vh;
+
+  border: 1px solid #5e48b6;
+}
+.link2input {
+  position: absolute;
+  width: 148px;
+  height: 30px;
+  left: 891px;
+  top: 856px;
+}
+
+.link2input:hover .hr4 {
+  border: 1px solid #5e48b6;
+}
+.link2input:hover .inputClick {
+  color: #5e48b6;
 }
 
 .how_much {
@@ -174,7 +296,7 @@
   position: absolute;
   height: 3.76vh;
   left: 49.49vh;
-  top: 75.3vh;
+  top: 50vh;
 
   font-family: "Roboto";
   font-style: normal;
@@ -186,15 +308,6 @@
   color: #ffffff;
 }
 
-.hr4 {
-  position: absolute;
-  width: 12.5vh;
-  height: 0px;
-  left: 110vh;
-  top: 112vh;
-
-  border: 1px solid #ffffff;
-}
 .choose_one {
   position: absolute;
   height: 3.76vh;
@@ -471,3 +584,75 @@
   top: 67.83vh;
   color: #5e48b6;
 }
+
+/*animation*/
+.user-answer_no:hover .circle_no {
+  transform: translateX(-200px);
+  border-color: grey;
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
+  opacity: 1;
+}
+
+.user-answer_no:hover .user-answer_no2 {
+  color: grey;
+  transition-duration: 1s;
+  opacity: 1;
+}
+
+.user-answer_no:hover .bg-no {
+  color: grey;
+}
+
+.user-answer_yes:hover .circle_yes {
+  transform: translateX(200px);
+  border-color: red;
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
+  opacity: 1;
+}
+
+.user-answer_yes:hover .user-answer_yes2 {
+  color: red;
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
+  opacity: 1;
+}
+
+.user-answer_yes:hover .hr2 {
+  border: 2px solid red;
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
+  opacity: 1;
+}
+
+.user-answer_no:hover .hr1 {
+  border: 2px solid grey;
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
+  opacity: 1;
+}
+
+.no-area {
+  position: absolute;
+  width: 15vh;
+  height: 3.76vh;
+  left: 73.3vh;
+  top: 107.66vh;
+}
+
+/*timetaken2*/
+
+/*
+position: relative;
+  width: 148px;
+  height: 30px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  /* identical to box height, or 75% */
