@@ -1,0 +1,252 @@
+.move:hover .standard {
+  transform: translate(50px);
+  border-bottom: thick solid #ff0000;
+  animation-name: tossing;
+  -webkit-animation-name: tossing;
+
+  animation-duration: 2.5s;
+  -webkit-animation-duration: 2.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing {
+  0% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(-4deg);
+  }
+}
+
+.no {
+  color: #ffffff;
+}
+.invisible {
+  position: absolute;
+  width: 800px;
+  height: 2000px;
+  top: 200px;
+  overflow: hidden;
+}
+
+.standard {
+  position: relative;
+  left: 200px;
+  top: 100px;
+  transform: translate(0px, 0px);
+  transition-property: all;
+
+  box-sizing: border-box;
+  position: relative;
+  width: 536px;
+  height: 168px;
+  background: #ffffff;
+  border-radius: 9px;
+  margin-bottom: -22px;
+}
+
+.questionWhere {
+  position: absolute;
+  width: 542px;
+  height: 30px;
+  left: 689px;
+  top: 100px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 30px;
+  /* identical to box height, or 50% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+}
+
+.votePlace {
+  position: relative;
+  left: 45px;
+  top: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  /* 00. On Surface / High Emphasis */
+
+  color: rgba(0, 0, 0, 0.87);
+}
+.address {
+  position: relative;
+  left: 45px;
+  top: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box 
+  height */
+
+  /* 00. On Surface / High Emphasis */
+
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/*CHIPS*/
+#x {
+  background: #aaaaaa;
+}
+
+.chips {
+  top: 6px;
+  position: relative;
+}
+.elevatorChip {
+  box-sizing: border-box;
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  left: 45px;
+
+  /* Green / 400 */
+  background: #66bb6a;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+}
+.elevatorText {
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 34px;
+  /* identical to box height */
+
+  /* Grey / 200 */
+
+  color: #eeeeee;
+}
+
+.brailleChip {
+  box-sizing: border-box;
+  position: absolute;
+  width: 110px;
+  height: 34px;
+  left: 120px;
+
+  /* Green / 400 */
+  background: #66bb6a;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+}
+.brailleText {
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 34px;
+  /* identical to box height */
+
+  /* Grey / 200 */
+
+  color: #eeeeee;
+}
+
+.slopeChip {
+  box-sizing: border-box;
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  left: 236px;
+  /* Green / 400 */
+  background: #66bb6a;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+}
+.slopeText {
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 34px;
+  /* identical to box height */
+
+  /* Grey / 200 */
+
+  color: #eeeeee;
+}
+
+.toiletChip {
+  box-sizing: border-box;
+  position: absolute;
+  width: 110px;
+  height: 34px;
+  left: 310px;
+  /* Green / 400 */
+  background: #66bb6a;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+}
+
+.toiletText {
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 34px;
+  /* identical to box height */
+
+  /* Grey / 200 */
+
+  color: #eeeeee;
+}
+
+.bellChip {
+  box-sizing: border-box;
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  left: 425px;
+  /* Green / 400 */
+  background: #66bb6a;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+}
+
+.bellText {
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 34px;
+  /* identical to box height */
+
+  /* Grey / 200 */
+
+  color: #eeeeee;
+}
+
+.boxes2 {
+  position: relative;
+  left: 200px;
+  top: 0px;
+}
