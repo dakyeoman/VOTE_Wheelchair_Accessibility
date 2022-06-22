@@ -21,34 +21,73 @@
             rgba(255, 222, 222, 0) 100%
           );
       }
+
+      .boxes {
+        position: absolute;
+        top: 12vh;
+      }
     </style>
   </head>
-
+<!--onclick="location.href='OBDfinish.html'" -->
   <body>
     <div class="choose_one">이 중 투표를 하는 데 방해가 된 것이 있나요?</div>
-    <div>
-      <div class="box1 text">승강기</div>
-    </div>
+      
+    <a href="OBDfinish.html">
+      <div class="boxes">
+        <div class="move">
+          <botton type="submit"
+          class="text" id="box1" 
+          onclick="save_clicked(this.id)">승강기</div>
+        </div>
+      </div>
+    </a>
 
-    <div>
-      <div class="box2 text">경사로</div>
-    </div>
+      <a href="OBDfinish.html">
+        <div class="boxes">
+        <div class="move">
+          <botton type="submit"
+          class="text" id="box2" 
+          onclick="save_clicked(this.id)">경사로</div>
+        </div>
+      </div>
+    </a>
 
-    <div>
-      <div class="box3 text">교통수단</div>
-    </div>
+      <a href="OBDfinish.html"><div class="boxes">
+        <div class="move">
+          <botton type="submit"
+          class="text" id="box3" onclick="save_clicked(this.id)">교통수단</div>
+        </div>
+      </div>
+    </a>
 
-    <div>
-      <div class="box4 text">투표용지</div>
-    </div>
+      <a href="OBDfinish.html"><div class="boxes">
+        <div class="move">
+          <botton type="submit"
+          
+          class="text" id="box4" onclick="save_clicked(this.id)">투표용지</div>
+        </div>
+      </div></a>
 
-    <div>
-      <div class="box5 text">투표도구</div>
-    </div>
+      <a href="OBDfinish.html"><div class="boxes">
+        <div class="move">
+          <botton type="submit"
+          
+          class="text" id="box5" onclick="save_clicked(this.id)">투표도구</div>
+        </div>
+      </div></a>
 
-    <div>
-      <div class="box6 text">없음</div>
-    </div>
-    <!--HOVER EVENT BELOW-->
+      <a href="OBDfinish.html"><div class="boxes">
+        <div class="move">
+          <botton type="submit"
+          
+          class="text" id="box6" onclick="save_clicked(this.id)">없음</div>
+        </div>
+      </div></a>
+    
+
+    <!--
+      >>> OBDfinish
+      HOVER EVENT BELOW-->
+    <script src="todo.js"></script>
   </body>
 </html>

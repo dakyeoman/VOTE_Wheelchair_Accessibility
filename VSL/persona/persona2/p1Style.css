@@ -326,20 +326,5 @@ a {
   position: absolute;
   height: 64vh;
   left: 96vh;
-  s
+  
 }
-.goBack{position: absolute;
-  width: 187px;
-  height: 30px;
-  left: 423px;
-  top: 617px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-  
-  
-  color: #898989;}

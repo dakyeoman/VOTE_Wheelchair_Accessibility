@@ -218,7 +218,7 @@
 }
 
 /*시간이 얼마나 걸리셨나요*/
-.inputClick {
+.inputClicks {
   position: relative;
   width: 148px;
   height: 30px;
@@ -272,7 +272,7 @@
   position: absolute;
   width: 387px;
   height: 30px;
-  left: 96.35vh;
+  left: 767px;
   top: 28.86vh;
 
   width: 48.61vh;
@@ -295,7 +295,7 @@
 .time_main {
   position: absolute;
   height: 3.76vh;
-  left: 49.49vh;
+  left: 450px;
   top: 50vh;
 
   font-family: "Roboto";
@@ -308,21 +308,23 @@
   color: #ffffff;
 }
 
-.choose_one {
+.options_text {
   position: absolute;
-  height: 3.76vh;
-  left: 78.517vh;
-  top: 40.91vh;
+  height: 30px;
+  left: 625px;
+  top: 440px;
 
-  position: absolute;
   color: #ffffff;
   margin-bottom: 1vh;
 
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
-  font-size: 100px;
+  font-weight: 400;
+  font-size: 80px;
   line-height: 30px;
+  /* identical to box height, or 38% */
+
+  color: #ffffff;
 }
 
 .obst_text {
@@ -345,13 +347,14 @@
 
 .which {
   position: absolute;
-  height: 3.768vh;
-  left: 36.55vh;
-  top: 69.47vh;
+  width: 1334px;
+  height: 30px;
+  left: 291px;
+  top: 591px;
 
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 17.58vh;
   line-height: 30px;
   /* identical to box height, or 21% */
@@ -369,13 +372,13 @@
   top: 200px;
 }
 
-.box1 {
+#box1 {
   /*box*/
   box-sizing: border-box;
 
   position: absolute;
-  width: 44.34vh;
-  height: 28.64vh;
+  width: 40.34vh;
+  height: 24.64vh;
   left: 51.38vh;
   top: 28.81vh;
 
@@ -387,15 +390,15 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 12vh;
+  padding-top: 11vh;
 }
 
-.box2 {
+#box2 {
   box-sizing: border-box;
 
   position: absolute;
-  width: 44.34vh;
-  height: 28.64vh;
+  width: 40.34vh;
+  height: 24.64vh;
   left: 98.49vh;
   top: 28.81vh;
 
@@ -407,14 +410,14 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 12vh;
+  padding-top: 11vh;
 }
 
-.box3 {
+#box3 {
   box-sizing: border-box;
   position: absolute;
-  width: 44.34vh;
-  height: 28.64vh;
+  width: 40.34vh;
+  height: 24.64vh;
   left: 145.6vh;
   top: 28.81vh;
 
@@ -426,15 +429,15 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 12vh;
+  padding-top: 11vh;
 }
 
-.box4 {
+#box4 {
   box-sizing: border-box;
 
   position: absolute;
-  width: 44.34vh;
-  height: 28.64vh;
+  width: 40.34vh;
+  height: 24.64vh;
   left: 51.38vh;
   top: 60.22vh;
 
@@ -446,15 +449,15 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 12vh;
+  padding-top: 11vh;
 }
 
-.box5 {
+#box5 {
   box-sizing: border-box;
 
   position: absolute;
-  width: 44.34vh;
-  height: 28.64vh;
+  width: 40.34vh;
+  height: 24.64vh;
   left: 98.49vh;
   top: 60.22vh;
 
@@ -466,15 +469,15 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 12vh;
+  padding-top: 11vh;
 }
 
-.box6 {
+#box6 {
   box-sizing: border-box;
 
   position: absolute;
-  width: 44.34vh;
-  height: 28.64vh;
+  width: 40.34vh;
+  height: 24.64vh;
   left: 145.6vh;
   top: 60.22vh;
 
@@ -486,14 +489,64 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 12vh;
+  padding-top: 11vh;
 }
 
+.boxes {
+}
+.move {
+}
+.boxes:hover .move {
+  border: thin solid #ff0000;
+  animation-name: tossing;
+  -webkit-animation-name: tossing;
+
+  animation-duration: 2.5s;
+  -webkit-animation-duration: 2.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.boxes:hover .text {
+  color: #ffffff;
+}
+
+.boxes:hover #box1 {
+  background: #5e48b6;
+}
+
+.boxes:hover #box2 {
+  background: #5e48b6;
+}
+
+.boxes:hover #box3 {
+  background: #5e48b6;
+}
+
+.boxes:hover #box4 {
+  background: #5e48b6;
+}
+
+.boxes:hover #box5 {
+  background: #5e48b6;
+}
+
+.boxes:hover #box6 {
+  background: #5e48b6;
+}
+
+@keyframes tossing {
+  0% {
+    transform: rotate(-2deg);
+  }
+}
 .text {
-  font-family: "Hahmlet";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 7.53vh;
+
+  font-size: 6vh;
   line-height: 30px;
   /* identical to box height, or 50% */
 
@@ -502,7 +555,6 @@
 
 .choose_one {
   position: absolute;
-
   height: 3.76vh;
   left: 55.5vh;
   top: 20vh;
@@ -656,3 +708,21 @@ position: relative;
   font-size: 40px;
   line-height: 30px;
   /* identical to box height, or 75% */
+
+.small {
+  font-size: 24px;
+  background-color: white;
+  width: 128px;
+  height: 58px;
+
+  position: absolute;
+
+  left: 940px;
+  top: 856px;
+
+  margin-left: -72px;
+  color: #5e48b6;
+  box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  border-color: #5e48b6;
+}

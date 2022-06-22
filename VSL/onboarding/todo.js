@@ -1,87 +1,49 @@
-const toDoForm = document.getElementById("todo-form");
-
-const toDoInput = toDoForm.querySelector("#todo-form input");
-const toDoList = document.getElementById("todo-list");
-
-const TODOS_KEY = "todos"
-let toDos = [];
-
-function saveToDos(){ 
-    //localStorage에 String으로 저장
-    localStorage.setItem("TODOS_KEY", JSON.stringify(toDos));
-}
-
-/*여기서는 필요 없음
-function deleteToDo(event){
-    const li = event.target.parentElement;
-    li.remove();
-    toDos = toDos.filter(toDo => toDo.id !== parseInt(li.id));
-    saveToDos();
-}
-*/
-
-function paintToDo(newTodo){
-    const li = document.createElement("li");
-    li.id = newTodo.id;
-    const span = document.createElement("span");
-    span.innerText = newTodo.text;
-}
-
-    /*
-    const button = document.createElement("button");
-    button.innerText = "❌";
-    button.addEventListener("click", deleteToDo)
-    li.appendChild(span);
-    li.appendChild(button);
-    toDoList.appendChild(li);
-    */
-
-
-function handleToDoSubmit(event) {
-    event.preventDefault();
-    const newTodo = toDoInput.value;
-    toDoInput.value = "";
-    const newTodoObj = {
-        text: newTodo, 
-        id: Date.now(),
+const OBSTACLE_KEY = "obstacles";
+//var result = "";
+//얘는 보존해야 함(로컬에 저장)
+function save_clicked(clicked_id){
+    //alert(clicked_id);
+    window.localStorage.setItem("OBSTACLE_KEY",clicked_id);
+    //const obstacles = localStorage.getItem("OBSTACLE_KEY");
+    //꺄아악 document.getElementById("OBSTACLE_KEY").value
+    if(localStorage.getItem("OBSTACLE_KEY")== "box1"){
+        var result_text = "승강기 때문에 불편을 겪으셨군요.";
+        //console.log(result_text);
+        localStorage.setItem("RESULT", result_text);
     }
-    toDos.push(newTodoObj);
-    paintToDo(newTodoObj);
-    saveToDos();
-}
-toDoForm.addEventListener("submit", handleToDoSubmit);
+    
+    else if(localStorage.getItem("OBSTACLE_KEY") == "box2"){
+        var result_text = "경사로 때문에 불편을 겪으셨군요.";
+        //console.log(result_text);
+        localStorage.setItem("RESULT", result_text);
+    }
 
+    else if(localStorage.getItem("OBSTACLE_KEY") == "box3"){
+        var result_text = "교통수단 때문에 불편을 겪으셨군요.";
+        localStorage.setItem("RESULT", result_text);
+    }
 
-const savedToDos = localStorage.getItem("TODOS_KEY");
-console.log(savedToDos);
-if(savedToDos !== null){
-    const parsedToDos = JSON.parse(savedToDos);
-    toDos = parsedToDos;
-    //forEach() -> array의 각 item에 대해 function 실행
-    parsedToDos.forEach(paintToDo);
-}
+    else if(localStorage.getItem("OBSTACLE_KEY") == "box4"){
+        var result_text = "투표용지 때문에 불편을 겪으셨군요.";
+        localStorage.setItem("RESULT", result_text);
+    }
 
+    else if(localStorage.getItem("OBSTACLE_KEY") == "box5"){
+        var result_text = "투표도구 때문에 불편을 겪으셨군요.";
+        localStorage.setItem("RESULT", result_text);
+    }
 
-
-//
-const loginForm = document.querySelector("#login-form");
-const loginInput = document.querySelector("#login-form input");
-const greeting = document.querySelector("#greeting");
-
-const HIDDEN_CLASSNAME = "hidden"; 
-const USERNAME_KEY = "username";
-
-
-//아래 함수 2개
-function onLoginSubmit(event) {
-    event.preventDefault();
-    loginForm.classList.add(HIDDEN_CLASSNAME);
-    const username = loginInput.value; 
-    localStorage.setItem(USERNAME_KEY, username)
-    paintGreetings(username)
+    else if(localStorage.getItem("OBSTACLE_KEY") == "box6"){
+        var result_text = "특별히 문제는 없으셨군요!";
+        localStorage.setItem("RESULT", result_text);
+    }
 }
 
-function paintGreetings(username){
-    greeting.innerText = `Hello ${username}`; //백틱 ``: opt+₩
-    greeting.classList.remove(HIDDEN_CLASSNAME);
-}
+console.log(localStorage.getItem("RESULT"));
+const result = localStorage.getItem("RESULT");
+document.getElementById("result").innerHTML=result;
+
+//여기까지 장애물 선택 
+
+
+

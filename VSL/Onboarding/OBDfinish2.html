@@ -21,17 +21,46 @@
             rgba(255, 222, 222, 0) 100%
           );
       }
+      .small {
+        font-size: 24px;
+        background-color: white;
+        width: 128px;
+        height: 58px;
+        position: absolute;
+        left: 960px;
+        top: 856px;
+        margin-left: -72px;
+        color: #5e48b6;
+        box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
+        border-radius: 12px;
+        border-color: #5e48b6;
+        background-color: transparent;
+      }
     </style>
   </head>
 
   <body>
     <div class="OBD2 textLoc1">당신은</div>
-    <!--UserSelect1_votingPlaceChosen-->
-    <div class="OBD2 textLoc2">USERINPUT1</div>
-    <!--UserSelect2_ObstacleChosen-->
-    <div class="OBD2 textLoc3">USERINPUT2</div>
+    <!--어디서 / 몇 분 걸려서-->
+    <div id="time" class="OBD2 textLoc2"></div>
+    <div id="result" class="OBD2 textLoc3"></div>
 
-    <!--click event>>>next-->
+    <button
+      type="button"
+      onclick="location.href='OBDfinish3.html'"
+      class="small"
+    >
+      계속하기
+    </button>
+    <script src="todo.js"></script>
+    <script src="time.js"></script>
   </body>
 </html>
-<!--text 공통 + 위치 class-->
+
+<!--text 공통 + 위치 class
+localStorage.getItem('키');
+당신은
+서울 관악구 보라매동 제1투표소에서
+ 아무 문제 없이 투표하셨네요!
+
+-->

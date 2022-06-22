@@ -15,18 +15,24 @@
 }
 .persona1 {
   position: absolute;
-  height: 78vh;
-  left: 47.11vh;
-  top: 57.89vh;
+  height: 64vh;
+  left: 20vh;
+  top: 72vh;
 }
 
 .persona2 {
   position: absolute;
-
-  height: 74vh;
-  left: 125.02vh;
-  top: 62.06vh;
+  height: 64vh;
+  left: 95vh;
+  top: 72vh;
   transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.persona3 {
+  position: absolute;
+  height: 64vh;
+  left: 170vh;
+  top: 72vh;
 }
 
 .botton {
@@ -38,9 +44,9 @@
 
   position: absolute;
   width: 25.12vh;
-  height: 9.04vh;
-  left: 64.32vh;
-  top: 50.41vh;
+  height: 7.04vh;
+  left: 30vh;
+  top: 58.41vh;
 
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -63,5 +69,12 @@
 }
 
 .loc2 {
-  left: 148.31vh;
+  left: 107vh;
+}
+
+.loc3 {
+  left: 182vh;
+}
+
+.personas {
 }
