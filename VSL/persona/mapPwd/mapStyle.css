@@ -1296,9 +1296,10 @@
 
 .nooneaft {
   position: absolute;
-  width: 153.946399px;
+  width: 153.94639px;
   height: 259.9736px;
   left: 1114.4px;
+  top: 199px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -1466,7 +1467,7 @@
   top: 605px;
 
   white-space: nowrap;
-  sfont-family: "Roboto";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
