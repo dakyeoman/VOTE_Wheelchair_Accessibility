@@ -134,23 +134,19 @@
   position: absolute;
   width: 387px;
   height: 30px;
-  left: 96.35vh;
-  top: 28.86vh;
-
-  width: 48.61vh;
-  height: 3.76vh;
-  left: 96.35vh;
-  top: 30.86vh;
-  margin-bottom: 1vh;
+  left: 767px;
+  top: 200px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 17.58vh;
+  font-size: 140px;
   line-height: 30px;
   /* identical to box height, or 21% */
 
   color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
 
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
 }
