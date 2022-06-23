@@ -1,13 +1,13 @@
 .main_title {
   position: absolute;
   height: 30px;
-  left: 490px;
-  top: 553px;
+  left: 380px;
+  top: 400px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 150px;
+  font-size: 100px;
   line-height: 30px;
   /* identical to box height, or 20% */
 
@@ -17,7 +17,7 @@
   position: absolute;
   height: 30px;
   left: 745px;
-  top: 389px;
+  top: 240px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -32,30 +32,19 @@
 .user-answer_no {
   position: absolute;
   height: 30px;
-  left: 584px;
-  top: 856px;
-
+  left: 100px;
+  top: 30px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 30px;
-  /* identical to box height, or 75% */
-
-  color: #ffffff;
 }
 
 .user-answer_no2 {
   position: absolute;
-  height: 30px;
-  left: 584px;
-  top: 856px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 30px;
+  left: 0px;
+  top: 0px;
 
   color: #ffffff;
 }
@@ -64,8 +53,8 @@
   position: absolute;
   width: 178px;
   height: 30px;
-  left: 1215px;
-  top: 858px;
+  left: 500px;
+  top: 30px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -81,8 +70,8 @@
   position: absolute;
   width: 178px;
   height: 30px;
-  left: 1215px;
-  top: 858px;
+  left: 0px;
+  top: 0px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -112,8 +101,8 @@
   position: absolute;
   width: 54px;
   height: 54px;
-  left: 1131px;
-  top: 850px;
+  left: 30px;
+  top: 40px;
 }
 
 .wrapper {
@@ -675,10 +664,10 @@
 
 .no-area {
   position: absolute;
-  width: 15vh;
   height: 3.76vh;
   left: 73.3vh;
   top: 107.66vh;
+  white-space: nowrap;
 }
 
 /*timetaken2*/
