@@ -112,19 +112,19 @@
 
 .hr2 {
   position: absolute;
-  width: 21vh;
+  width: 167.16px;
   height: 0px;
   left: 0vh;
-  top: 3vh;
+  top: 23.88px;
   border: 1px solid #ffffff;
 }
 
 .hr1 {
   position: absolute;
-  width: 14vh;
+  width: 111.44px;
   height: 0px;
-  left: 0vh;
-  top: 3vh;
+  left: 0px;
+  top: 23.88px
 
   border: 1px solid #ffffff;
 }
@@ -132,7 +132,6 @@
 /*Onboarding Where*/
 .where {
   position: absolute;
-  width: 387px;
   height: 30px;
   left: 767px;
   top: 200px;
@@ -155,8 +154,8 @@
   position: relative;
   width: 194px;
   height: 30px;
-  left: 0vh;
-  top: 0vh;
+  left: 0px;
+  top: 0px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -169,10 +168,10 @@
 
 .hr3 {
   position: relative;
-  width: 24vh;
+  width: 191.04px;
   height: 0px;
-  left: -0.3vh;
-  top: 1vh;
+  left: -2.388px;
+  top: 7.96px;
 
   border: 1px solid #ffffff;
 }
@@ -181,8 +180,8 @@
   position: absolute;
   width: 194px;
   height: 30px;
-  left: 109.54vh;
-  top: 107.53vh;
+  left: 871.93px;
+  top: 855.9388px;
 }
 .next:hover .hr3 {
   border: 1px solid #5e48b6;
@@ -213,7 +212,7 @@
   width: 144px;
   height: 0px;
   left: 0;
-  top: 1vh;
+  top: 7.96px;
 
   border: 1px solid #ffffff;
 }
@@ -222,8 +221,8 @@
   position: relative;
   width: 100px;
   height: 0px;
-  left: -10vh;
-  top: -1.2vh;
+  left: -79.6px;s
+  top: -9.552px;
 
   border: 1px solid #5e48b6;
 }
@@ -247,18 +246,18 @@
   width: 387px;
   height: 30px;
   left: 767px;
-  top: 28.86vh;
+  top:  229.72px;
 
-  width: 48.61vh;
-  height: 3.76vh;
-  left: 96.35vh;
-  top: 30.86vh;
-  margin-bottom: 1vh;
+  width: 386.935px;
+  height: 29.9296px;
+  left: 766.9459px;
+  top: 245.6456px;
+  margin-bottom: 7.96px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 17.58vh;
+  font-size:  139.9367px;
   line-height: 30px;
   /* identical to box height, or 21% */
 
@@ -268,9 +267,9 @@
 }
 .time_main {
   position: absolute;
-  height: 3.76vh;
+  height: 29.9296px;
   left: 450px;
-  top: 50vh;
+  top:  398px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -289,7 +288,7 @@
   top: 440px;
 
   color: #ffffff;
-  margin-bottom: 1vh;
+  margin-bottom: 7.96px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -303,14 +302,14 @@
 
 .obst_text {
   position: absolute;
-  height: 3.768vh;
-  left: 36.55vh;
-  top: 74.24vh;
+  height: 29.99328px;
+  left: 290.938px;
+  top: 590.9504px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 17.58vh;
+  font-size: 139.9px;
   line-height: 30px;
   /* identical to box height, or 21% */
 
@@ -328,7 +327,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 17.58vh;
+  font-size: 139.9px;
   line-height: 30px;
   /* identical to box height, or 21% */
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
@@ -350,10 +349,10 @@
   box-sizing: border-box;
 
   position: absolute;
-  width: 40.34vh;
-  height: 24.64vh;
-  left: 51.38vh;
-  top: 28.81vh;
+  width:  321.1064px;
+  height: 196.1344px;
+  left:  408.9848px;
+  top:  229.3276px;
 
   background: linear-gradient(
     178.15deg,
@@ -363,17 +362,17 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 11vh;
+  padding-top:  87.56px
 }
 
 #box2 {
   box-sizing: border-box;
 
   position: absolute;
-  width: 40.34vh;
-  height: 24.64vh;
-  left: 98.49vh;
-  top: 28.81vh;
+  width:  321.1064px;
+  height: 196.1344px;
+  left:783.98px;
+  top: 229.3276px;
 
   background: linear-gradient(
     178.15deg,
@@ -383,16 +382,16 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 11vh;
+  padding-top:  87.56px;
 }
 
 #box3 {
   box-sizing: border-box;
   position: absolute;
-  width: 40.34vh;
-  height: 24.64vh;
-  left: 145.6vh;
-  top: 28.81vh;
+  width:  321.1064px;
+  height: 196.1344px;
+  left: 1158.97px;
+  top: 229.3276px;
 
   background: linear-gradient(
     178.15deg,
@@ -402,17 +401,17 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 11vh;
+  padding-top:  87.56px;
 }
 
 #box4 {
   box-sizing: border-box;
 
   position: absolute;
-  width: 40.34vh;
-  height: 24.64vh;
-  left: 51.38vh;
-  top: 60.22vh;
+  width:  321.1064px;
+  height: 196.1344px;
+  left: 408.9848px;
+  top: 479.3512px;
 
   background: linear-gradient(
     178.15deg,
@@ -422,17 +421,17 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 11vh;
+  padding-top:  87.56px;
 }
 
 #box5 {
   box-sizing: border-box;
 
   position: absolute;
-  width: 40.34vh;
-  height: 24.64vh;
-  left: 98.49vh;
-  top: 60.22vh;
+  width:  321.1064px;
+  height: 196.1344px;
+  left: 783.98039px;
+  top:  479.3512px;
 
   background: linear-gradient(
     178.15deg,
@@ -442,17 +441,17 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 11vh;
+  padding-top:  87.56px;
 }
 
 #box6 {
   box-sizing: border-box;
 
   position: absolute;
-  width: 40.34vh;
-  height: 24.64vh;
-  left: 145.6vh;
-  top: 60.22vh;
+  width:  321.1064px;
+  height: 196.1344px;
+  left: 1158.975px;
+  top: 479.3512px;
 
   background: linear-gradient(
     178.15deg,
@@ -462,7 +461,7 @@
   box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   text-align: center;
-  padding-top: 11vh;
+  padding-top:  87.56px;
 }
 
 .boxes {
@@ -519,7 +518,7 @@
   font-style: normal;
   font-weight: 700;
 
-  font-size: 6vh;
+  font-size: 47.76px;
   line-height: 30px;
   /* identical to box height, or 50% */
 
@@ -528,14 +527,14 @@
 
 .choose_one {
   position: absolute;
-  height: 3.76vh;
-  left: 55.5vh;
-  top: 20vh;
+  height:  29.9296px;
+  left: 441.78px;
+  top: 159.2px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 7.53vh;
+  font-size:  59.9388px;
   line-height: 30px;
   /* identical to box height, or 50% */
 
@@ -546,14 +545,14 @@
 /*OBDfinish*/
 .ok {
   position: absolute;
-  height: 3.76vh;
-  left: 85.8vh;
-  top: 65.95vh;
+  height: 29.9296px;
+  left: 682.9680000000001px;
+  top: 524.962px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 17.58vh;
+  font-size: 139.93679999999998px;
   line-height: 30px;
   /* identical to box height, or 21% */
 
@@ -569,44 +568,44 @@
   /* identical to box height, or 150% */
   text-align: center;
   color: #ffffff;
-  font-size: 10.05vh;
+  font-size: 79.998px;
 }
 
 .textLoc1 {
   position: absolute;
 
-  height: 15.07vh;
-  left: 106.78vh;
-  top: 45.22vh;
+  height:  119.9572px;
+  left:  849.969px;
+  top: 359.95px;
 }
 
 .textLoc2 {
   position: absolute;
-  height: 15.07vh;
+  height: 119.9572px;
   /*left*/
-  top: 60.3vh;
+  top: 479.987999px;
 }
 
 .textLoc3 {
   position: absolute;
-  height: 15.07vh;
+  height:  119.9572px;
   /*left*/
-  top: 75.37vh;
+  top:  599.9452px;
 }
 
 /*OBDfinish3*/
 .txt1 {
   position: absolute;
-  height: 15.07vh;
-  left: 110.17vh;
-  top: 52.76vh;
+  height:  119.9572px;
+  left: 876.9532px;
+  top: 419.9696px;
 }
 
 .txt2 {
   position: absolute;
-  height: 15.07vh;
-  left: 64.69vh;
-  top: 67.83vh;
+  height: 119.9572px;
+  left: 514.9324px;
+  top:  539.9268px;
   color: #5e48b6;
 }
 
@@ -660,9 +659,9 @@
 
 .no-area {
   position: absolute;
-  height: 3.76vh;
-  left: 73.3vh;
-  top: 107.66vh;
+  height: 29.9296px;
+  left:  583.468px;
+  top:  856.9736px;
   white-space: nowrap;
 }
 
