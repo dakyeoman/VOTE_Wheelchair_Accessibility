@@ -51,7 +51,6 @@
 
 .user-answer_yes {
   position: absolute;
-  width: 178px;
   height: 30px;
   left: 500px;
   top: 30px;
@@ -68,7 +67,6 @@
 
 .user-answer_yes2 {
   position: absolute;
-  width: 178px;
   height: 30px;
   left: 0px;
   top: 0px;
@@ -124,7 +122,7 @@
   width: 111.44px;
   height: 0px;
   left: 0px;
-  top: 23.88px
+  top: 23.88px;
 
   border: 1px solid #ffffff;
 }
@@ -193,7 +191,6 @@
 /*시간이 얼마나 걸리셨나요*/
 .inputClicks {
   position: relative;
-  width: 148px;
   height: 30px;
   left: 0px;
   top: 0px;
@@ -243,12 +240,10 @@
 
 .how_much {
   position: absolute;
-  width: 387px;
   height: 30px;
   left: 767px;
   top:  229.72px;
 
-  width: 386.935px;
   height: 29.9296px;
   left: 766.9459px;
   top: 245.6456px;
@@ -683,8 +678,7 @@ position: relative;
 
 .small {
   font-size: 24px;
-  background-color: white;
-  width: 128px;
+  background-color: transparent;
   height: 58px;
 
   position: absolute;

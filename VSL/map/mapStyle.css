@@ -38,18 +38,18 @@
 }
 .gangseo {
   position: absolute;
-  width: 31.15vh;
-  height: 29.27vh;
-  left: 62.68vh;
-  top: 59vh;
+  width: 247.95399px;
+  height: 232.98919px;
+  left: 498.9328px;
+  top: 469.64px;
 }
 
 .gsaft {
   position: absolute;
-  width: 31.15vh;
-  height: 29.27vh;
-  left: 62.68vh;
-  top: 59vh;
+  width: 247.954px;
+  height: 232.98px;
+  left: 498.9328px;
+  top: 469.64px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -94,18 +94,18 @@
 }
 .yangcheon {
   position: absolute;
-  width: 18.96vh;
-  height: 16.45vh;
-  left: 77.01vh;
-  top: 80.27vh;
+  width: 150.9216px;
+  height: 130.942px;
+  left: 612.99px;
+  top: 638.9492px;
 }
 
 .yangcheonaft {
   position: absolute;
-  width: 18.96vh;
-  height: 16.45vh;
-  left: 77.01vh;
-  top: 80.27vh;
+  width: 150.9216px;
+  height: 130.94199px;
+  left: 612.9996px;
+  top: 638.9492px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -200,19 +200,19 @@
 }
 .youngdeongpo {
   position: absolute;
-  height: 27.26vh;
-  left: 93.09vh;
-  top: 78.76vh;
+  height: 216.98960000000002px;
+  left: 740.9964px;
+  top: 626.9296px;
 }
 .ydpcontainer {
 }
 
 .youngdeongpoaft {
   position: absolute;
-  width: 19.59vh;
-  height: 27.26vh;
-  left: 93.09vh;
-  top: 78.76vh;
+  width: 155.9364px;
+  height: 216.98960000000002px;
+  left: 740.9964px;
+  top: 626.9296px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
