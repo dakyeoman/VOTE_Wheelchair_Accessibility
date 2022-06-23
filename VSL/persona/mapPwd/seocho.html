@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="kr">
   <head>
-    <head>
-      <meta charset="UTF=8" />
-      <link rel="stylesheet" href="votelocation.css" />
-      <title>Accessibility is important</title>
-      <style>
-        body {background-size: cover;
-          position: relative;
-          width: 1920px;
-          height: 1080px;
-          background: linear-gradient(
-              67.73deg,
-              rgba(8, 94, 208, 0.3) 15.97%,
-              rgba(8, 94, 208, 0) 69.95%
-            ),
-            linear-gradient(
-              180deg,
-              rgba(255, 0, 0, 0.3) 0%,
-              rgba(255, 222, 222, 0) 100%
-            );
-        }
+    <meta charset="UTF=8" />
+    <link rel="stylesheet" href="votelocation.css" />
+    <title>Accessibility is important</title>
+    <style>
+      body {
+        background-size: cover;
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        background: linear-gradient(
+            67.73deg,
+            rgba(8, 94, 208, 0.3) 15.97%,
+            rgba(8, 94, 208, 0) 69.95%
+          ),
+          linear-gradient(
+            180deg,
+            rgba(255, 0, 0, 0.3) 0%,
+            rgba(255, 222, 222, 0) 100%
+          );
+      }
+
+      .here {
+      top:720px;
+      height: 40px;
+      color:#5E48B6}
+
 
       /*지도 이미진*/
-      .detailed { 
+      .detailed {
         position: absolute;
         width: 481px;
         height: 452px;
@@ -42,179 +48,23 @@
   </head>
 
   <body>
-    <div class="questionWhere">어디서 투표하셨나요?</div>
-    <img src="images/gangseo_grey.png" class="greyarea"></div>
-    <img src="images/강서구.png" class="detailed" />
-    <!--id="x"-->
-    <div>
-      <div class="invisible" style="overflow-y: scroll;"> 
-        <!--   => 위치상 기준점   -->
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-        
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-        
-        <div class="move">
-          <div class="standard">
-            <p class="votePlace ">강일동 제1투표소</p>
-            <p class="address">서울특별시 강동구 아리수로93길 9-14(강일동 주민센터)</p>
-            <div class="chips">
-              <div class="elevatorChip elevatorText">승강기</div>
-              <div class="brailleChip brailleText">점자유도블럭</div>
-              <div class="slopeChip slopeText">경사로</div>
-              <div class="toiletChip toiletText">장애인화장실</div>
-              <div class="bellChip bellText">도움벨</div>
-            </div>
-          </div>
-        </div> 
-
-    
+    <div class="local">서초구</div>
+    <div class="text">
+      지체장애인 비율은 1.00%로, </br>전체 인구 412,279명 중 </br>4,106명이 지체장애를 갖고
+      있습니다.
     </div>
 
-      
+    <div class="text here">접근성 점수는 58.085점입니다.</div>
 
 
+    <img src="imagesPwd/서초구.png" class="images" />
 
-    <!--<div class="container">
-      <img src="images/강서구.png" class="gangseo" />
-      <img src="images/hover_강서구.png" class="gsaft" />
-      <div class="gstext">강서구</div>
-      <div class="clickmessage">맞으면 클릭하세요</div>
-    </div>-->
+    <a href="../lasts/last.html">
+      <div class="clickToProceed ">클릭해서 진행하기</div>
+      <div class="wrapper ">
+        <div class="ellipseProceed "></div>
+      </div>
+    </a>
+    
   </body>
 </html>
