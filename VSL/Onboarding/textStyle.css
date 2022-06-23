@@ -1,42 +1,47 @@
 .main_title {
   position: absolute;
-  color: #ffffff;
-  padding-top: 1vh;
+  width: 940px;
   height: 30px;
-  left: 64vh;
-  top: 55.3vh;
+  left: 490px;
+  top: 553px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 12vh;
+  font-size: 150px;
   line-height: 30px;
-  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  /* identical to box height, or 20% */
+
+  color: #ffffff;
 }
 .sub_title {
   position: absolute;
-  color: #ffffff;
-  margin-bottom: 1vh;
-  height: 3.92vh;
-  left: 97.51vh;
-  top: 40vh;
+  width: 431px;
+  height: 30px;
+  left: 745px;
+  top: 389px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 80px;
   line-height: 30px;
+  /* identical to box height, or 38% */
+
+  color: #ffffff;
 }
 
 .user-answer_no {
-  position: relative;
-  width: 15vh;
-  height: 3.76vh;
+  position: absolute;
+  width: 121px;
+  height: 30px;
+  left: 584px;
+  top: 856px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 5.025vh;
+  font-size: 40px;
   line-height: 30px;
   /* identical to box height, or 75% */
 
@@ -45,27 +50,26 @@
 
 .user-answer_no2 {
   position: absolute;
-  width: 15vh;
-  height: 3.76vh;
-  top: 0vh;
-  left: 0vh;
+  width: 121px;
+  height: 30px;
+  left: 584px;
+  top: 856px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 5.025vh;
+  font-size: 40px;
   line-height: 30px;
-  /* identical to box height, or 75% */
 
   color: #ffffff;
 }
 
 .user-answer_yes {
-  position: relative;
+  position: absolute;
   width: 178px;
-  height: 3.76px;
-  left: 78.63vh;
-  top: -4vh;
+  height: 30px;
+  left: 1215px;
+  top: 858px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -78,19 +82,17 @@
 }
 
 .user-answer_yes2 {
-  position: relative;
+  position: absolute;
   width: 178px;
-  height: 3.76px;
-  left: 0vh;
-  top: -3.8vh;
+  height: 30px;
+  left: 1215px;
+  top: 858px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 30px;
-  /* identical to box height, or 75% */
-
   color: #ffffff;
 }
 
@@ -98,33 +100,24 @@
   position: absolute;
   width: 54px;
   height: 54px;
-  left: 42vh;
-  top: -15px;
-  border: 4px solid #ffffff;
-  border-radius: 50%;
+  left: 933px;
+  top: 851px;
 }
 
 .circle_no {
-  position: relative;
-  width: 54px;
-  height: 54px;
-  left: 42vh;
-  top: -5.6vh;
-  opacity: 20%;
-  border: 4px solid #ffffff;
-  border-radius: 50%;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 725px;
+  top: 853px;
 }
 
 .circle_yes {
   position: absolute;
   width: 54px;
   height: 54px;
-  left: -36.6vh;
-  top: -1.7vh;
-
-  border: 4px solid #ffffff;
-  opacity: 20%;
-  border-radius: 50%;
+  left: 1131px;
+  top: 850px;
 }
 
 .wrapper {
