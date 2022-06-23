@@ -27,8 +27,9 @@
       }
       .answer {
         position: absolute;
-        text-align: center;
-        left: 430px;
+        width: 490px;
+        height: 60px;
+        left: 715px;
         top: 200px;
 
         font-family: "Roboto";
@@ -60,11 +61,28 @@
         width: 1016px;
         height: 0px;
         left: 452px;
-        top: 410px;
+        top: 340px;
 
         border: 1px solid #ffffff;
       }
 
+      input {
+        width: 500px;
+        height: 50px;
+        margin-top: 450px;
+        margin-left: 680px;
+        font-size: 15px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: transparent;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 30px;
+      }
 
       .hr {
         position: relative;
@@ -92,19 +110,22 @@
 
   <body>
     <img
-      src="/VOTE_WheelchairAccessibility/VSL/persona/images/페2_웃음.png"
+      src="../images/페2.png"
       alt="persona_m"
       class="persona1 face"
     />
-    <div class="answer">자, 그럼</br></br>서울 지도를 다시 보러 가요.</div>      
-      <a href="/VOTE_WheelchairAccessibility/VSL/mapPwd/main_map.html">
-        <div class="clickToProceed here">클릭해서 진행하기</div>
-        <div class="wrapper here">
-          <div class="ellipseProceed here"></div>
-        </div>
-      </a>
+    <div class="answer">어떠셨나요?</div>
 
-    <hr class="personaLine"></hr>
-    <script src="/Users/adrua/Desktop/VSL Website/VOTE_WheelchairAccessibility/VSL/onboarding/time.js"></script>
+      <input type="text" placeholder="입력해주세요" required >
+      
+      <button
+      
+        type="submit"
+        class="small"
+        onclick="location.href='bridge.html'">
+      ➡️
+      </button>
+
+    <hr class="hr"></hr>
   </body>
 </html>
