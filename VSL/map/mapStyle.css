@@ -13,15 +13,16 @@
   /* identical to box height, or 50% */
 
   color: #ffffff;
-
+  white-space: nowrap;
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
 }
 .clickmessage {
   position: absolute;
   height: 30px;
   left: 1525px;
   top: 615px;
-
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -32,9 +33,11 @@
   color: #5e48b6;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 /*강서구*/
 .container {
+  white-space: nowrap;
 }
 .gangseo {
   position: absolute;
@@ -42,6 +45,7 @@
   height: 232.98919px;
   left: 498.9328px;
   top: 469.64px;
+  white-space: nowrap;
 }
 
 .gsaft {
@@ -52,10 +56,12 @@
   top: 469.64px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .container:hover .gsaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .gstext {
@@ -76,21 +82,26 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .container:hover .gstext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .container:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*양천구*/
 .yccontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .yccontainer {
+  white-space: nowrap;
 }
 .yangcheon {
   position: absolute;
@@ -98,6 +109,7 @@
   height: 130.942px;
   left: 612.99px;
   top: 638.9492px;
+  white-space: nowrap;
 }
 
 .yangcheonaft {
@@ -108,10 +120,12 @@
   top: 638.9492px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .yccontainer:hover .yangcheonaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .yctext {
@@ -132,15 +146,18 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .yccontainer:hover .yctext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*구로구*/
 .grcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .guro {
   position: absolute;
@@ -150,9 +167,11 @@
   top: 745.5px;
   /* surface */
   transform: rotate(1deg);
+  white-space: nowrap;
 }
 
 .grcontainer {
+  white-space: nowrap;
 }
 
 .guroaft {
@@ -163,10 +182,12 @@
   top: 745.5px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .grcontainer:hover .guroaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .grtext {
@@ -187,24 +208,29 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .grcontainer:hover .grtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*영등포구*/
 .ydpcontainer:hover .clickmessage {
   opacity: 1;
   left: 1540px;
+  white-space: nowrap;
 }
 .youngdeongpo {
   position: absolute;
   height: 216.98960000000002px;
   left: 740.9964px;
   top: 626.9296px;
+  white-space: nowrap;
 }
 .ydpcontainer {
+  white-space: nowrap;
 }
 
 .youngdeongpoaft {
@@ -215,10 +241,12 @@
   top: 626.9296px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .ydpcontainer:hover .youngdeongpoaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .ydptext {
@@ -239,40 +267,47 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .ydpcontainer:hover .ydptext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*동작구*/
 .djcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .dongjak {
   position: absolute;
-  width: 22.67vh;
-  height: 16.52vh;
-  left: 100vh;
-  top: 92.399vh;
+  width: 180.4532px;
+  height: 131.4992px;
+  left: 796px;
+  top: 735.496px;
   /* surface */
+  white-space: nowrap;
 }
 
 .djcontainer {
+  white-space: nowrap;
 }
 
 .dongjakaft {
   position: absolute;
-  width: 22.67vh;
-  height: 16.52vh;
-  left: 100vh;
-  top: 92.399vh;
+  width: 180.4532px;
+  height: 131.4992px;
+  left: 796px;
+  top: 735.49px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .djcontainer:hover .dongjakaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .djtext {
@@ -293,38 +328,45 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .djcontainer:hover .djtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*관악구*/
 .gacontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .gwanak {
   position: absolute;
-  width: 24.62vh;
-  height: 21.23vh;
-  left: 100.5vh;
-  top: 101vh;
+  width: 195.9752px;
+  height: 168.9908px;
+  left: 799.98px;
+  top: 803.96px;
+  white-space: nowrap;
 }
 .gacontainer {
+  white-space: nowrap;
 }
 
 .gwanakaft {
   position: absolute;
-  width: 24.62vh;
-  height: 21.23vh;
-  left: 100.5vh;
-  top: 101vh;
+  width: 195.9752px;
+  height: 168.9908px;
+  left: 799.98px;
+  top: 803.96px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gacontainer:hover .gwanakaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .gatext {
@@ -345,39 +387,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gacontainer:hover .gatext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*금천구*/
 .gccontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .geomcheon {
   position: absolute;
-  width: 14.25vh;
-  height: 19.28vh;
-  left: 91.5vh;
-  top: 103.5vh;
+  width: 113.43px;
+  height: 153.46880000000002px;
+  left: 728.34px;
+  top: 823.86px;
+  white-space: nowrap;
 }
 
 .gccontainer {
+  white-space: nowrap;
 }
 
 .geomcheonaft {
   position: absolute;
-  width: 14.25vh;
-  height: 19.28vh;
-  left: 91.5vh;
-  top: 103.5vh;
+  width: 113.43px;
+  height: 153.4688px;
+  left: 728.34px;
+  top: 823.86px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gccontainer:hover .geomcheonaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .gctext {
@@ -398,39 +447,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gccontainer:hover .gctext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*서초구*/
 .sccontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .seocho {
   position: absolute;
-  width: 35.05vh;
-  height: 36.62vh;
-  left: 119vh;
-  top: 90.07vh;
+  width: 278.998px;
+  height: 291.49519999999995px;
+  left: 947.24px;
+  top: 716.957px;
+  white-space: nowrap;
 }
 
 .sccontainer {
+  white-space: nowrap;
 }
 
 .seochoaft {
   position: absolute;
-  width: 35.05vh;
-  height: 36.62vh;
-  left: 119vh;
-  top: 90.07vh;
+  width: 278.998px;
+  height: 291.49519999px;
+  left: 947.24px;
+  top: 716.9572px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .sccontainer:hover .seochoaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .sctext {
@@ -451,39 +507,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .sccontainer:hover .sctext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*강남구*/
 .gncontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .gangnam {
   position: absolute;
-  width: 31.7211vh;
-  height: 28.957vh;
-  left: 129.8vh;
-  top: 88.06vh;
+  width: 252.499956px;
+  height: 230.4977px;
+  left: 1033.208px;
+  top: 700.9576px;
+  white-space: nowrap;
 }
 
 .gncontainer {
+  white-space: nowrap;
 }
 
 .gangnamaft {
   position: absolute;
-  width: 31.7211vh;
-  height: 28.957vh;
-  left: 129.8vh;
-  top: 88.06vh;
+  width: 252.499956px;
+  height: 230.49772000000002px;
+  left: 1033.208px;
+  top: 700.9576px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gncontainer:hover .gangnamaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .gntext {
@@ -504,39 +567,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gncontainer:hover .gntext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*송파구*/
 .spcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .songpa {
   position: absolute;
-  width: 25.188vh;
-  height: 30.77vh;
-  left: 145vh;
-  top: 83.1658vh;
+  width: 200.49647px;
+  height: 244.9291px;
+  left: 1154.2px;
+  top: 661.999768px;
+  white-space: nowrap;
 }
 
 .container {
+  white-space: nowrap;
 }
 
 .songpaaft {
   position: absolute;
-  width: 25.188vh;
-  height: 30.77vh;
-  left: 145vh;
-  top: 83.1658vh;
+  width: 200.496px;
+  height: 244.929199px;
+  left: 1154.2px;
+  top: 661.999768px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .spcontainer:hover .songpaaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .sptext {
@@ -557,39 +627,47 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .spcontainer:hover .sptext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*강동구*/
 .gdcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .gangdong {
   position: absolute;
-  width: 19.221vh;
-  height: 22.613vh;
-  left: 157.8vh;
-  top: 71.4vh;
+  width: 152.99916px;
+  height: 179.99948px;
+  left: 1256.088px;
+  top: 568.344px;
+  white-space: nowrap;
 }
 
 .gdcontainer {
+  white-space: nowrap;
 }
 
 .gangdongaft {
   position: absolute;
-  width: 19.221vh;
-  height: 22.613vh;
-  left: 157.8vh;
-  top: 71.4vh;
+  width: 152.99916px;
+  height: 179.99948px;
+  left: 1256.088px;
+  top: 568.344px;
+  font: 1em sans-serif;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gdcontainer:hover .gangdongaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .gdtext {
@@ -608,39 +686,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gdcontainer:hover .gdtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*마포구*/
 .mpcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .mapo {
   position: absolute;
-  width: 30.2763vh;
-  height: 24.246vh;
-  left: 87.1859vh;
-  top: 63.3165vh;
+  width: 240.999348px;
+  height: 192.9981599999999px;
+  left: 693.999764px;
+  top: 503.99934px;
+  white-space: nowrap;
 }
 
 .mpcontainer {
+  white-space: nowrap;
 }
 
 .mapoaft {
   position: absolute;
-  width: 30.2763vh;
-  height: 24.246vh;
-  left: 87.1859vh;
-  top: 63.3165vh;
+  width: 240.999348px;
+  height: 192.998159px;
+  left: 693.999764px;
+  top: 503.99934px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .mpcontainer:hover .mapoaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .mptext {
@@ -661,39 +746,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .mpcontainer:hover .mptext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*용산구*/
 .yscontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .yongsan {
   position: absolute;
-  width: 19.2839vh;
-  height: 15.012vh;
-  left: 111.8vh;
-  top: 79vh;
+  width: 153.499844px;
+  height: 119.49552px;
+  left: 889.928px;
+  top: 628.84px;
+  white-space: nowrap;
 }
 
 .yscontainer {
+  white-space: nowrap;
 }
 
 .yongsanaft {
   position: absolute;
-  width: 19.2839vh;
-  height: 15.012vh;
-  left: 111.8vh;
-  top: 79vh;
+  width: 153.499844px;
+  height: 119.49552px;
+  left: 889.928px;
+  top: 628.84px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .yscontainer:hover .yongsanaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .ystext {
@@ -714,40 +806,47 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .yscontainer:hover .ystext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*중구*/
 .jcontainer:hover .clickmessage {
   opacity: 1;
   left: 1485px;
+  white-space: nowrap;
 }
 .jung {
   position: absolute;
-  width: 18.21vh;
-  height: 9.48vh;
-  left: 115.6vh;
-  top: 72.9vh;
+  width: 144.95159px;
+  height: 75.4608px;
+  left: 920.17599px;
+  top: 580.284px;
+  white-space: nowrap;
 }
 
 .jcontainer {
+  white-space: nowrap;
 }
 
 .jungaft {
   position: absolute;
-  width: 18.21vh;
-  height: 9.48vh;
-  left: 115.6vh;
-  top: 72.9vh;
+  width: 144.95159px;
+  height: 75.4608px;
+  left: 920.17px;
+  top: 580.284px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .jcontainer:hover .jungaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .jtext {
@@ -768,39 +867,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .jcontainer:hover .jtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*성동구*/
 .sdcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .seongdong {
   position: absolute;
-  width: 17.148vh;
-  height: 15.829vh;
-  left: 129.4vh;
-  top: 72.92vh;
+  width: 136.49808px;
+  height: 125.99884px;
+  left: 1030.024px;
+  top: 580.4432px;
+  white-space: nowrap;
 }
 
 .sdcontainer {
+  white-space: nowrap;
 }
 
 .seongdongaft {
   position: absolute;
-  width: 17.148vh;
-  height: 15.829vh;
-  left: 129.4vh;
-  top: 72.92vh;
+  width: 136.49808px;
+  height: 125.99884px;
+  left: 1030.0240000000001px;
+  top: 580.4432px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .sdcontainer:hover .seongdongaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .sdtext {
@@ -821,39 +927,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .sdcontainer:hover .sdtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*광진구*/
 .gjcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .gwangjin {
   position: absolute;
-  width: 13.944vh;
-  height: 17.71h;
-  left: 142.8vh;
-  top: 71.98vh;
+  width: 110.99424px;
+  height: 140.9716px;
+  left: 1136.688px;
+  top: 572.9608000000001px;
+  white-space: nowrap;
 }
 
 .gjcontainer {
+  white-space: nowrap;
 }
 
 .gwangjinaft {
   position: absolute;
-  width: 13.944vh;
-  height: 17.71h;
-  left: 142.8vh;
-  top: 71.98vh;
+  width: 110.99424px;
+  height: 140.9716px;
+  left: 1136.688px;
+  top: 572.9608px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gjcontainer:hover .gwangjinaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .gjtext {
@@ -874,39 +987,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gjcontainer:hover .gjtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*중랑구*/
 .jrcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .jungrang {
   position: absolute;
   width: 104px;
   height: 152px;
-  left: 147vh;
-  top: 54.5vh;
+  left: 1170.12px;
+  top: 433.82px;
+  white-space: nowrap;
 }
 
 .jrcontainer {
+  white-space: nowrap;
 }
 
 .jungrangaft {
   position: absolute;
   width: 104px;
   height: 152px;
-  left: 147vh;
-  top: 54.5vh;
+  left: 1170.12px;
+  top: 433.82px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .jrcontainer:hover .jungrangaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .jrtext {
@@ -927,39 +1047,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .jrcontainer:hover .jrtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*은평구*/
 .epcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .eunpyeong {
   position: absolute;
-  width: 23.11vh;
-  height: 30.59vh;
-  left: 96vh;
-  top: 39.8vh;
+  width: 183.9556px;
+  height: 243.4964px;
+  left: 764.16px;
+  top: 316.808px;
+  white-space: nowrap;
 }
 
 .epcontainer {
+  white-space: nowrap;
 }
 
 .eunpyeongaft {
   position: absolute;
-  width: 23.11vh;
-  height: 30.59vh;
-  left: 96vh;
-  top: 39.8vh;
+  width: 183.9556px;
+  height: 243.4964px;
+  left: 764.16px;
+  top: 316.808px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .epcontainer:hover .eunpyeongaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .eptext {
@@ -980,40 +1107,47 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .epcontainer:hover .eptext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*서대문구*/
 .sdmcontainer:hover .clickmessage {
   opacity: 1;
   left: 1540px;
+  white-space: nowrap;
 }
 .seodeamoon {
   position: absolute;
-  width: 16.89vh;
-  height: 18.02vh;
-  left: 101.7vh;
-  top: 60vh;
+  width: 134.4444px;
+  height: 143.4392px;
+  left: 809.53199999999px;
+  top: 477.6px;
+  white-space: nowrap;
 }
 
 .sdmcontainer {
+  white-space: nowrap;
 }
 
 .seodeamoonaft {
   position: absolute;
-  width: 16.89vh;
-  height: 18.02vh;
-  left: 101.7vh;
-  top: 60vh;
+  width: 134.4444px;
+  height: 143.4392px;
+  left: 809.5319999999999px;
+  top: 477.6px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .sdmcontainer:hover .seodeamoonaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .sdmtext {
@@ -1034,39 +1168,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .sdmcontainer:hover .sdmtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*종로구*/
 .jrcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .jongro {
   position: absolute;
-  width: 19.53vh;
-  height: 25.81vh;
-  left: 114.7vh;
-  top: 49vh;
+  width: 155.4588px;
+  height: 205.4476px;
+  left: 913.012px;
+  top: 390.04px;
+  white-space: nowrap;
 }
 
 .jrcontainer {
+  white-space: nowrap;
 }
 
 .jongroaft {
   position: absolute;
-  width: 19.53vh;
-  height: 25.81vh;
-  left: 114.7vh;
-  top: 49vh;
+  width: 155.4588px;
+  height: 205.4476px;
+  left: 913.012px;
+  top: 390.04px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .jrcontainer:hover .jongroaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .jrtext {
@@ -1087,40 +1228,47 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .jrcontainer:hover .jrtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*동대문구*/
 .ddmcontainer:hover .clickmessage {
   opacity: 1;
   left: 1540px;
+  white-space: nowrap;
 }
 .dongdeamoon {
   position: absolute;
-  width: 15.13vh;
-  height: 17.46vh;
-  left: 133.5vh;
-  top: 60.4vh;
+  width: 120.43480000000001px;
+  height: 138.9816px;
+  left: 1062.66px;
+  top: 480.784px;
+  white-space: nowrap;
 }
 
 .ddmcontainer {
+  white-space: nowrap;
 }
 
 .dongdeamoonaft {
   position: absolute;
-  width: 15.13vh;
-  height: 17.46vh;
-  left: 133.5vh;
-  top: 60.4vh;
+  width: 120.4348px;
+  height: 138.9816px;
+  left: 1062.66px;
+  top: 480.784px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .ddmcontainer:hover .dongdeamoonaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .ddmtext {
@@ -1141,39 +1289,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .ddmcontainer:hover .ddmtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*성북구*/
 .sbcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .seongbook {
   position: absolute;
-  width: 27.82vh;
-  height: 24.05vh;
-  left: 120vh;
-  top: 47.5vh;
+  width: 221.4472px;
+  height: 191.438px;
+  left: 955.2px;
+  top: 378.1px;
+  white-space: nowrap;
 }
 
 .sbcontainer {
+  white-space: nowrap;
 }
 
 .seongbookaft {
   position: absolute;
-  width: 27.82vh;
-  height: 24.05vh;
-  left: 120vh;
-  top: 47.5vh;
+  width: 221.4472px;
+  height: 191.438px;
+  left: 955.2px;
+  top: 378.1px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .sbcontainer:hover .seongbookaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .sbtext {
@@ -1194,39 +1349,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .sbcontainer:hover .sbtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*강북구*/
 .gbcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .gangbook {
   position: absolute;
-  width: 18.71vh;
-  height: 28.26vh;
-  left: 123.5vh;
-  top: 29.89vh;
+  width: 148.9316px;
+  height: 224.9496px;
+  left: 983.06px;
+  top: 237.9244px;
+  white-space: nowrap;
 }
 
 .gbcontainer {
+  white-space: nowrap;
 }
 
 .gangbookaft {
   position: absolute;
-  width: 18.71vh;
-  height: 28.26vh;
-  left: 123.5vh;
-  top: 29.89vh;
+  width: 148.9316px;
+  height: 224.94960000000003px;
+  left: 983.06px;
+  top: 237.9244px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gbcontainer:hover .gangbookaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .gbtext {
@@ -1247,39 +1409,46 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .gbcontainer:hover .gbtext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*노원구*/
 .nocontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .noone {
   position: absolute;
-  width: 19.34vh;
-  height: 32.66vh;
-  left: 140vh;
-  top: 25vh;
+  width: 153.94639px;
+  height: 259.9736px;
+  left: 1114.4px;
+  top: 199px;
+  white-space: nowrap;
 }
 
 .nocontainer {
+  white-space: nowrap;
 }
 
 .nooneaft {
   position: absolute;
-  width: 19.34vh;
-  height: 32.66vh;
-  left: 140vh;
-  top: 25vh;
+  width: 153.94639px;
+  height: 259.9736px;
+  left: 1114.4px;
+  top: 199px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .nocontainer:hover .nooneaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .notext {
@@ -1300,38 +1469,45 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .nocontainer:hover .notext {
   opacity: 1;
+  white-space: nowrap;
 }
 
 /*도봉구*/
 .dbcontainer:hover .clickmessage {
   opacity: 1;
+  white-space: nowrap;
 }
 .dobong {
   position: absolute;
-  width: 13.505vh;
-  height: 26.19vh;
-  left: 130vh;
-  top: 24.1vh;
+  width: 107.499px;
+  height: 208.4724px;
+  left: 1034.8px;
+  top: 191.836px;
+  white-space: nowrap;
 }
 
 .dbcontainer {
+  white-space: nowrap;
 }
 
 .dobongaft {
   position: absolute;
-  height: 26.19vh;
-  left: 130vh;
-  top: 24.1vh;
+  height: 208.4724px;
+  left: 1034.8px;
+  top: 191.836px;
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .dbcontainer:hover .dobongaft {
   opacity: 1;
+  white-space: nowrap;
 }
 
 .dbtext {
@@ -1352,8 +1528,10 @@
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: opacity 0.3s linear;
+  white-space: nowrap;
 }
 
 .dbcontainer:hover .dbtext {
   opacity: 1;
+  white-space: nowrap;
 }

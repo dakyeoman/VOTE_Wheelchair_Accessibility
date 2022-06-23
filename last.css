@@ -5,7 +5,7 @@
   left: 272px;
   top: 167px;
 
-  font-family: "Roboto";
+  white-space: nowrap;sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -16,24 +16,24 @@
 }
 .persona1 {
   position: absolute;
-  height: 64vh;
-  left: 20vh;
-  top: 72vh;
+  height: 509.44px;
+  left: 159.2px;
+  top: 573.12px;
 }
 
 .persona2 {
   position: absolute;
-  height: 64vh;
-  left: 95vh;
-  top: 72vh;
+  height: 509.44px;
+  left: 756.2px;
+  top: 573.12px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .persona3 {
   position: absolute;
-  height: 64vh;
-  left: 170vh;
-  top: 72vh;
+  height: 509.44px;
+  left: 1353.2px;
+  top: 573.12px;
 }
 
 .botton {
@@ -44,17 +44,17 @@
   padding: 6px 6px 6px 8px;
 
   position: absolute;
-  width: 28.12vh;
-  height: 7.04vh;
-  left: 30vh;
-  top: 58.41vh;
+  width: 223.8352px;
+  height: 56.0384px;
+  left: 238.8px;
+  top: 464.9436px;
 
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
 }
 .talk {
-  font-family: "Roboto";
+  white-space: nowrap;sfont-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -70,26 +70,26 @@
 }
 
 .loc2 {
-  left: 107vh;
+  left: 851.72px;
 }
 
 .loc3 {
-  left: 182vh;
+  left: 1448.72px;
 }
 
 .personas {
 }
 .clickToProceed {
   position: absolute;
-  width: 23.49vh;
-  height: 3.76vh;
-  left: 190.43vh;
-  top: 50.51vh;
+  width: 186.98px;
+  height: 29.9296px;
+  left: 1515.8228px;
+  top:  402.0596px
 
-  font-family: "Roboto";
+  white-space: nowrap;sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 2.01vh;
+  font-size:  15.999599999999997px;
   line-height: 30px;
   /* identical to box height, or 188% */
 
@@ -98,10 +98,10 @@
 
 .ellipseProceed {
   position: absolute;
-  width: 3.76vh;
-  height: 3.76vh;
-  left: 184.53vh;
-  top: 50.2vh;
+  width:  29.9296px;
+  height:  29.9296px;
+  left: 1468.8588px;
+  top: 399.5920000px;
   border: 4px solid #ffffff;
   border-radius: 50%;
   border-color: #5e48b6;

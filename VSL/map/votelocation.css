@@ -57,6 +57,7 @@
   left: 689px;
   top: 100px;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -74,6 +75,7 @@
   left: 45px;
   top: 28px;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -89,6 +91,7 @@
   position: relative;
   left: 45px;
   top: 8px;
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -126,6 +129,7 @@
 .elevatorText {
   text-align: center;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -153,6 +157,7 @@
 .brailleText {
   text-align: center;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -179,6 +184,7 @@
 .slopeText {
   text-align: center;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -206,6 +212,7 @@
 .toiletText {
   text-align: center;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -233,6 +240,7 @@
 .bellText {
   text-align: center;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;

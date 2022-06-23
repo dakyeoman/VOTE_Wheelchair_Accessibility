@@ -13,6 +13,7 @@
   left: 998px;
   top: 186px;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -32,6 +33,7 @@
   left: 998px;
   top: 275px;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -57,6 +59,7 @@
   left: 1056px;
   top: 800px;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -92,6 +95,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -102,15 +106,16 @@
 }
 .clickToProceed {
   position: absolute;
-  width: 23.49vh;
-  height: 3.76vh;
-  left: 162.43vh;
-  top: 77.51vh;
+  width: 186.98px;
+  height: 29.9296px;
+  left: 1292.9428px;
+  top: 616.979px;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 2.01vh;
+  font-size: 15.999599px;
   line-height: 30px;
   /* identical to box height, or 188% */
 
@@ -118,10 +123,10 @@
 }
 .ellipseProceed {
   position: absolute;
-  width: 3.76vh;
-  height: 3.76vh;
-  left: 156.53vh;
-  top: 77vh;
+  width: 29.9296px;
+  height: 29.9296px;
+  left: 1245.9788px;
+  top: 612.92px;
   border: 4px solid #ffffff;
   border-radius: 50%;
   border-color: #5e48b6;

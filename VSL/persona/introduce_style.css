@@ -4,6 +4,7 @@
   left: 716.96px;
   top: 244.372px;
 
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -53,6 +54,7 @@
   border-radius: 40px;
 }
 .talk {
+  white-space: nowrap;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;

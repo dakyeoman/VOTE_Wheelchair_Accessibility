@@ -1,10 +1,12 @@
 .questionWhere {
   position: absolute;
+  width: 542px;
   height: 30px;
-  left: 640px;
+  left: 689px;
   top: 100px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -12,16 +14,17 @@
   /* identical to box height, or 50% */
 
   color: #ffffff;
-
+  white-space: nowrap;
   text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
 }
 .clickmessage {
   position: absolute;
   height: 30px;
-  left: 1575px;
+  left: 1525px;
   top: 615px;
-
-  font-family: "Roboto";
+  white-space: nowrap;
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -37,18 +40,18 @@
 }
 .gangseo {
   position: absolute;
-  width: 31.15vh;
-  height: 29.27vh;
-  left: 62.68vh;
-  top: 59vh;
+  width: 247.95399px;
+  height: 232.98919px;
+  left: 498.9328px;
+  top: 469.64px;
 }
 
 .gsaft {
   position: absolute;
-  width: 31.15vh;
-  height: 29.27vh;
-  left: 62.68vh;
-  top: 59vh;
+  width: 247.954px;
+  height: 232.98px;
+  left: 498.9328px;
+  top: 469.64px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -63,7 +66,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -93,18 +97,18 @@
 }
 .yangcheon {
   position: absolute;
-  width: 18.96vh;
-  height: 16.45vh;
-  left: 77.01vh;
-  top: 80.27vh;
+  width: 150.9216px;
+  height: 130.942px;
+  left: 612.99px;
+  top: 638.9492px;
 }
 
 .yangcheonaft {
   position: absolute;
-  width: 18.96vh;
-  height: 16.45vh;
-  left: 77.01vh;
-  top: 80.27vh;
+  width: 150.9216px;
+  height: 130.94199px;
+  left: 612.9996px;
+  top: 638.9492px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -119,7 +123,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -174,7 +179,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -199,19 +205,19 @@
 }
 .youngdeongpo {
   position: absolute;
-  height: 27.26vh;
-  left: 93.09vh;
-  top: 78.76vh;
+  height: 216.98960000000002px;
+  left: 740.9964px;
+  top: 626.9296px;
 }
 .ydpcontainer {
 }
 
 .youngdeongpoaft {
   position: absolute;
-  width: 19.59vh;
-  height: 27.26vh;
-  left: 93.09vh;
-  top: 78.76vh;
+  width: 155.9364px;
+  height: 216.98960000000002px;
+  left: 740.9964px;
+  top: 626.9296px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -226,7 +232,8 @@
   left: 1431px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -250,10 +257,10 @@
 }
 .dongjak {
   position: absolute;
-  width: 22.67vh;
-  height: 16.52vh;
-  left: 100vh;
-  top: 92.399vh;
+  width: 180.4532px;
+  height: 131.4992px;
+  left: 796px;
+  top: 735.496px;
   /* surface */
 }
 
@@ -262,10 +269,10 @@
 
 .dongjakaft {
   position: absolute;
-  width: 22.67vh;
-  height: 16.52vh;
-  left: 100vh;
-  top: 92.399vh;
+  width: 180.4532px;
+  height: 131.4992px;
+  left: 796px;
+  top: 735.49px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -280,7 +287,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -304,20 +312,20 @@
 }
 .gwanak {
   position: absolute;
-  width: 24.62vh;
-  height: 21.23vh;
-  left: 100.5vh;
-  top: 101vh;
+  width: 195.9752px;
+  height: 168.9908px;
+  left: 799.98px;
+  top: 803.96px;
 }
 .gacontainer {
 }
 
 .gwanakaft {
   position: absolute;
-  width: 24.62vh;
-  height: 21.23vh;
-  left: 100.5vh;
-  top: 101vh;
+  width: 195.9752px;
+  height: 168.9908px;
+  left: 799.98px;
+  top: 803.96px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -332,7 +340,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -356,10 +365,10 @@
 }
 .geomcheon {
   position: absolute;
-  width: 14.25vh;
-  height: 19.28vh;
-  left: 91.5vh;
-  top: 103.5vh;
+  width: 113.43px;
+  height: 153.46880000000002px;
+  left: 728.34px;
+  top: 823.86px;
 }
 
 .gccontainer {
@@ -367,10 +376,10 @@
 
 .geomcheonaft {
   position: absolute;
-  width: 14.25vh;
-  height: 19.28vh;
-  left: 91.5vh;
-  top: 103.5vh;
+  width: 113.43px;
+  height: 153.4688px;
+  left: 728.34px;
+  top: 823.86px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -385,7 +394,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -409,10 +419,10 @@
 }
 .seocho {
   position: absolute;
-  width: 35.05vh;
-  height: 36.62vh;
-  left: 119vh;
-  top: 90.07vh;
+  width: 278.998px;
+  height: 291.49519999999995px;
+  left: 947.24px;
+  top: 716.957px;
 }
 
 .sccontainer {
@@ -420,10 +430,10 @@
 
 .seochoaft {
   position: absolute;
-  width: 35.05vh;
-  height: 36.62vh;
-  left: 119vh;
-  top: 90.07vh;
+  width: 278.998px;
+  height: 291.49519999px;
+  left: 947.24px;
+  top: 716.9572px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -438,7 +448,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -462,10 +473,10 @@
 }
 .gangnam {
   position: absolute;
-  width: 31.7211vh;
-  height: 28.957vh;
-  left: 129.8vh;
-  top: 88.06vh;
+  width: 252.499956px;
+  height: 230.4977px;
+  left: 1033.208px;
+  top: 700.9576px;
 }
 
 .gncontainer {
@@ -473,10 +484,10 @@
 
 .gangnamaft {
   position: absolute;
-  width: 31.7211vh;
-  height: 28.957vh;
-  left: 129.8vh;
-  top: 88.06vh;
+  width: 252.499956px;
+  height: 230.49772000000002px;
+  left: 1033.208px;
+  top: 700.9576px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -491,7 +502,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -515,10 +527,10 @@
 }
 .songpa {
   position: absolute;
-  width: 25.188vh;
-  height: 30.77vh;
-  left: 145vh;
-  top: 83.1658vh;
+  width: 200.49647px;
+  height: 244.9291px;
+  left: 1154.2px;
+  top: 661.999768px;
 }
 
 .container {
@@ -526,10 +538,10 @@
 
 .songpaaft {
   position: absolute;
-  width: 25.188vh;
-  height: 30.77vh;
-  left: 145vh;
-  top: 83.1658vh;
+  width: 200.496px;
+  height: 244.929199px;
+  left: 1154.2px;
+  top: 661.999768px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -544,7 +556,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -568,10 +581,10 @@
 }
 .gangdong {
   position: absolute;
-  width: 19.221vh;
-  height: 22.613vh;
-  left: 157.8vh;
-  top: 71.4vh;
+  width: 152.99916px;
+  height: 179.99948px;
+  left: 1256.088px;
+  top: 568.344px;
 }
 
 .gdcontainer {
@@ -579,10 +592,11 @@
 
 .gangdongaft {
   position: absolute;
-  width: 19.221vh;
-  height: 22.613vh;
-  left: 157.8vh;
-  top: 71.4vh;
+  width: 152.99916px;
+  height: 179.99948px;
+  left: 1256.088px;
+  top: 568.344px;
+  font: 1em sans-serif;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -597,7 +611,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -619,10 +634,10 @@
 }
 .mapo {
   position: absolute;
-  width: 30.2763vh;
-  height: 24.246vh;
-  left: 87.1859vh;
-  top: 63.3165vh;
+  width: 240.999348px;
+  height: 192.9981599999999px;
+  left: 693.999764px;
+  top: 503.99934px;
 }
 
 .mpcontainer {
@@ -630,10 +645,10 @@
 
 .mapoaft {
   position: absolute;
-  width: 30.2763vh;
-  height: 24.246vh;
-  left: 87.1859vh;
-  top: 63.3165vh;
+  width: 240.999348px;
+  height: 192.998159px;
+  left: 693.999764px;
+  top: 503.99934px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -648,7 +663,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -672,10 +688,10 @@
 }
 .yongsan {
   position: absolute;
-  width: 19.2839vh;
-  height: 15.012vh;
-  left: 111.8vh;
-  top: 79vh;
+  width: 153.499844px;
+  height: 119.49552px;
+  left: 889.928px;
+  top: 628.84px;
 }
 
 .yscontainer {
@@ -683,10 +699,10 @@
 
 .yongsanaft {
   position: absolute;
-  width: 19.2839vh;
-  height: 15.012vh;
-  left: 111.8vh;
-  top: 79vh;
+  width: 153.499844px;
+  height: 119.49552px;
+  left: 889.928px;
+  top: 628.84px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -701,7 +717,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -726,10 +743,10 @@
 }
 .jung {
   position: absolute;
-  width: 18.21vh;
-  height: 9.48vh;
-  left: 115.6vh;
-  top: 72.9vh;
+  width: 144.95159px;
+  height: 75.4608px;
+  left: 920.17599px;
+  top: 580.284px;
 }
 
 .jcontainer {
@@ -737,10 +754,10 @@
 
 .jungaft {
   position: absolute;
-  width: 18.21vh;
-  height: 9.48vh;
-  left: 115.6vh;
-  top: 72.9vh;
+  width: 144.95159px;
+  height: 75.4608px;
+  left: 920.17px;
+  top: 580.284px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -755,7 +772,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -779,10 +797,10 @@
 }
 .seongdong {
   position: absolute;
-  width: 17.148vh;
-  height: 15.829vh;
-  left: 129.4vh;
-  top: 72.92vh;
+  width: 136.49808px;
+  height: 125.99884px;
+  left: 1030.024px;
+  top: 580.4432px;
 }
 
 .sdcontainer {
@@ -790,10 +808,10 @@
 
 .seongdongaft {
   position: absolute;
-  width: 17.148vh;
-  height: 15.829vh;
-  left: 129.4vh;
-  top: 72.92vh;
+  width: 136.49808px;
+  height: 125.99884px;
+  left: 1030.0240000000001px;
+  top: 580.4432px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -808,7 +826,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -832,10 +851,10 @@
 }
 .gwangjin {
   position: absolute;
-  width: 13.944vh;
-  height: 17.71h;
-  left: 142.8vh;
-  top: 71.98vh;
+  width: 110.99424px;
+  height: 140.9716px;
+  left: 1136.688px;
+  top: 572.9608000000001px;
 }
 
 .gjcontainer {
@@ -843,10 +862,10 @@
 
 .gwangjinaft {
   position: absolute;
-  width: 13.944vh;
-  height: 17.71h;
-  left: 142.8vh;
-  top: 71.98vh;
+  width: 110.99424px;
+  height: 140.9716px;
+  left: 1136.688px;
+  top: 572.9608px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -861,7 +880,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -887,8 +907,8 @@
   position: absolute;
   width: 104px;
   height: 152px;
-  left: 147vh;
-  top: 54.5vh;
+  left: 1170.12px;
+  top: 433.82px;
 }
 
 .jrcontainer {
@@ -898,8 +918,8 @@
   position: absolute;
   width: 104px;
   height: 152px;
-  left: 147vh;
-  top: 54.5vh;
+  left: 1170.12px;
+  top: 433.82px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -914,7 +934,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -938,10 +959,10 @@
 }
 .eunpyeong {
   position: absolute;
-  width: 23.11vh;
-  height: 30.59vh;
-  left: 96vh;
-  top: 39.8vh;
+  width: 183.9556px;
+  height: 243.4964px;
+  left: 764.16px;
+  top: 316.808px;
 }
 
 .epcontainer {
@@ -949,10 +970,10 @@
 
 .eunpyeongaft {
   position: absolute;
-  width: 23.11vh;
-  height: 30.59vh;
-  left: 96vh;
-  top: 39.8vh;
+  width: 183.9556px;
+  height: 243.4964px;
+  left: 764.16px;
+  top: 316.808px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -967,7 +988,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -992,10 +1014,10 @@
 }
 .seodeamoon {
   position: absolute;
-  width: 16.89vh;
-  height: 18.02vh;
-  left: 101.7vh;
-  top: 60vh;
+  width: 134.4444px;
+  height: 143.4392px;
+  left: 809.53199999999px;
+  top: 477.6px;
 }
 
 .sdmcontainer {
@@ -1003,10 +1025,10 @@
 
 .seodeamoonaft {
   position: absolute;
-  width: 16.89vh;
-  height: 18.02vh;
-  left: 101.7vh;
-  top: 60vh;
+  width: 134.4444px;
+  height: 143.4392px;
+  left: 809.5319999999999px;
+  top: 477.6px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -1021,7 +1043,8 @@
   left: 1431px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -1045,10 +1068,10 @@
 }
 .jongro {
   position: absolute;
-  width: 19.53vh;
-  height: 25.81vh;
-  left: 114.7vh;
-  top: 49vh;
+  width: 155.4588px;
+  height: 205.4476px;
+  left: 913.012px;
+  top: 390.04px;
 }
 
 .jrcontainer {
@@ -1056,10 +1079,10 @@
 
 .jongroaft {
   position: absolute;
-  width: 19.53vh;
-  height: 25.81vh;
-  left: 114.7vh;
-  top: 49vh;
+  width: 155.4588px;
+  height: 205.4476px;
+  left: 913.012px;
+  top: 390.04px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -1074,7 +1097,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -1099,10 +1123,10 @@
 }
 .dongdeamoon {
   position: absolute;
-  width: 15.13vh;
-  height: 17.46vh;
-  left: 133.5vh;
-  top: 60.4vh;
+  width: 120.43480000000001px;
+  height: 138.9816px;
+  left: 1062.66px;
+  top: 480.784px;
 }
 
 .ddmcontainer {
@@ -1110,10 +1134,10 @@
 
 .dongdeamoonaft {
   position: absolute;
-  width: 15.13vh;
-  height: 17.46vh;
-  left: 133.5vh;
-  top: 60.4vh;
+  width: 120.4348px;
+  height: 138.9816px;
+  left: 1062.66px;
+  top: 480.784px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -1128,7 +1152,8 @@
   left: 1431px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -1152,10 +1177,10 @@
 }
 .seongbook {
   position: absolute;
-  width: 27.82vh;
-  height: 24.05vh;
-  left: 120vh;
-  top: 47.5vh;
+  width: 221.4472px;
+  height: 191.438px;
+  left: 955.2px;
+  top: 378.1px;
 }
 
 .sbcontainer {
@@ -1163,10 +1188,10 @@
 
 .seongbookaft {
   position: absolute;
-  width: 27.82vh;
-  height: 24.05vh;
-  left: 120vh;
-  top: 47.5vh;
+  width: 221.4472px;
+  height: 191.438px;
+  left: 955.2px;
+  top: 378.1px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -1181,7 +1206,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -1205,10 +1231,10 @@
 }
 .gangbook {
   position: absolute;
-  width: 18.71vh;
-  height: 28.26vh;
-  left: 123.5vh;
-  top: 29.89vh;
+  width: 148.9316px;
+  height: 224.9496px;
+  left: 983.06px;
+  top: 237.9244px;
 }
 
 .gbcontainer {
@@ -1216,10 +1242,10 @@
 
 .gangbookaft {
   position: absolute;
-  width: 18.71vh;
-  height: 28.26vh;
-  left: 123.5vh;
-  top: 29.89vh;
+  width: 148.9316px;
+  height: 224.94960000000003px;
+  left: 983.06px;
+  top: 237.9244px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -1234,7 +1260,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -1258,10 +1285,10 @@
 }
 .noone {
   position: absolute;
-  width: 19.34vh;
-  height: 32.66vh;
-  left: 140vh;
-  top: 25vh;
+  width: 153.94639px;
+  height: 259.9736px;
+  left: 1114.4px;
+  top: 199px;
 }
 
 .nocontainer {
@@ -1269,10 +1296,9 @@
 
 .nooneaft {
   position: absolute;
-  width: 19.34vh;
-  height: 32.66vh;
-  left: 140vh;
-  top: 25vh;
+  width: 153.946399px;
+  height: 259.9736px;
+  left: 1114.4px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -1287,7 +1313,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -1311,10 +1338,10 @@
 }
 .dobong {
   position: absolute;
-  width: 13.505vh;
-  height: 26.19vh;
-  left: 130vh;
-  top: 24.1vh;
+  width: 107.499px;
+  height: 208.4724px;
+  left: 1034.8px;
+  top: 191.836px;
 }
 
 .dbcontainer {
@@ -1322,9 +1349,9 @@
 
 .dobongaft {
   position: absolute;
-  height: 26.19vh;
-  left: 130vh;
-  top: 24.1vh;
+  height: 208.4724px;
+  left: 1034.8px;
+  top: 191.836px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -1339,7 +1366,8 @@
   left: 1471px;
   top: 525px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -1376,7 +1404,8 @@
   height: 30px;
   left: 297px;
   top: 447px;
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -1405,7 +1434,8 @@
   left: 297px;
   top: 526px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -1435,7 +1465,8 @@
   left: 297px;
   top: 605px;
 
-  font-family: "Roboto";
+  white-space: nowrap;
+  sfont-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
