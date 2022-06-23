@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <html lang="kr">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <link rel="stylesheet", type="text/css", href="roadview.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="roadview.js" type="text/javascript" defer="defer"></script>
+    <style>
+      #currentwitch{ /*현재 위치 바꾸기*/
+        position: absolute;
+        left: 113px;
+        top: 253px;            
+      }
+      #status { /*빨강색 바 늘리기*/
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 70px;
+        top: 485px;
+
+        border: 8px solid #d20000;
+      }
+      .minimap {
+        box-sizing: border-box;
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 70px;
+        top: 220px;
+
+        background: url(./images/minimapng.png);
+        background-size: cover;
+        border: 1px solid #000000;
+        border-radius: 12px;
+      }
+      .here {
+        background-color: white;
+        color:#5E48B6
+      }
+
+    </style>
+</head>
+<body>
+          <div class="imgs">
+              <img id="nangok_img" src="./nangok/1.jpg" alt="">
+            <div id ="moveBtn">
+              <a href="#" id ="nangok_pre">
+                <img src="button_bottom.png" width = 60px height = 60px> </a>
+                  <a href="#" id="nangok_next"> <img src = "button_top.png" width = 60px height = 60px> </a>
+            </div>
+          </div>
+          <div class="box1"></div>
+          <div class="box2"></div>
+          <div class="pollname">난곡동 투표소</div>
+          <div class="geori">거리</div>
+          <div id="georinum">0.0 KM</div>
+          <div class="sigan">시간</div>
+          <div id="sigannum">00:00</div>
+          <div class="pace">페이스</div>
+          <div id="pacenum">00:00 / km</div>
+          <div class="minimap"></div>
+          <div class="statusbar"></div>
+          <div id="status"></div>
+          <div id="currentwitch">
+          <img src="./images/currentwitch.png" style = "width: 35px">
+          </div>
+          <a href="/VOTE_WheelchairAccessibility/lastpage/lastpage.html"><div class="botton here">다 봤어요!</div></a>
+
+        
+</body>
+</html>
+

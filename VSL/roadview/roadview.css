@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.imgs {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
+
+#daechi_img {
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
+
+#gayang_img {
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
+
+#nangok_img {
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
+
+#moveBtn {
+  width: 1144px;
+  top: 78vh;
+  left: 40vh;
+  position: absolute;
+  z-index: 2;
+}
+
+/*대치 버튼*/
+#moveBtn #daechi_pre {
+  float: left;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 600px;
+  display: block;
+}
+
+#moveBtn #daechi_next {
+  float: right;
+  margin-top: 200px;
+  margin-right: 485px;
+  display: block;
+}
+
+/*가양 버튼*/
+#moveBtn #gayang_pre {
+  float: left;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 600px;
+  display: block;
+}
+
+#moveBtn #gayang_next {
+  float: right;
+  margin-top: 200px;
+  margin-right: 485px;
+  display: block;
+}
+
+/*난곡 버튼*/
+#moveBtn #nangok_pre {
+  float: left;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 600px;
+  display: block;
+}
+
+#moveBtn #nangok_next {
+  float: right;
+  margin-top: 200px;
+  margin-right: 485px;
+  display: block;
+}
+
+/* */
+
+.button {
+  position: absolute;
+  left: 900px;
+  top: 760px;
+  /*width: 148px;
+ */
+  width: 0px;
+  height: 0px;
+  border-bottom: 120px solid #ffffff;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  /*https://www.codingfactory.net/12713 
+  여기서 참고했습니다 */
+}
+.button2 {
+  position: absolute;
+  left: 900px;
+  top: 930px;
+
+  border-bottom: 120px solid #ffffff;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  transform: rotate(-180deg);
+}
+.box1 {
+  position: absolute;
+  width: 290px;
+  height: 450px;
+  left: 50px;
+  top: 100px;
+
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.box2 {
+  position: absolute;
+  width: 290px;
+  height: 50px;
+  left: 50px;
+  top: 35px;
+
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.pollname {
+  position: absolute;
+  width: 250px;
+  height: 45px;
+  left: 66px;
+  top: 38px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+
+  color: #404040;
+  /* Inside auto layout */
+}
+.geori {
+  /* 거리 */
+  position: absolute;
+  width: 80px;
+  height: 38px;
+  left: 63px;
+  top: 110px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+  color: #393939;
+}
+#georinum {
+  position: absolute;
+  width: 95px;
+  height: 38px;
+  left: 197px;
+  top: 110px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #393939;
+}
+.sigan {
+  position: absolute;
+  width: 80px;
+  height: 38px;
+  left: 63px;
+  top: 145px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #393939;
+}
+#sigannum {
+  position: absolute;
+  width: 83px;
+  height: 38px;
+  left: 195px;
+  top: 145px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #393939;
+}
+.pace {
+  position: absolute;
+  width: 89px;
+  height: 38px;
+  left: 70px;
+  top: 180px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #393939;
+}
+#pacenum {
+  position: absolute;
+  width: 170px;
+  height: 38px;
+  left: 178px;
+  top: 180px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #393939;
+}
+
+.statusbar {
+  position: absolute;
+  width: 240px;
+  height: 0px;
+  left: 70px;
+  top: 485px;
+
+  border: 8px solid #b7b7b7;
+}
+
+.shock {
+  /* 충격 */
+  position: absolute;
+  width: 80px;
+  height: 38px;
+  left: 70px;
+  top: 505px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #303030;
+}
+#shocknum {
+  position: absolute;
+  width: 290px;
+  height: 38px;
+  left: 125px;
+  top: 505px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #303030;
+}
+.botton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 6px 6px 8px;
+
+  position: absolute;
+  width: 160px;
+  height: 42px;
+  left: 170px;
+  top: 580px;
+
+  background: #5e48b6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  color: white;
+  /* identical to box height, or 50% */
+}

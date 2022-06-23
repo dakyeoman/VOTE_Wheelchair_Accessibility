@@ -1,0 +1,1446 @@
+.questionWhere {
+  position: absolute;
+  height: 30px;
+  left: 640px;
+  top: 100px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 30px;
+  /* identical to box height, or 50% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+}
+.clickmessage {
+  position: absolute;
+  height: 30px;
+  left: 1575px;
+  top: 615px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height, or 75% */
+
+  color: #5e48b6;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+/*강서구*/
+.container {
+}
+.gangseo {
+  position: absolute;
+  width: 31.15vh;
+  height: 29.27vh;
+  left: 62.68vh;
+  top: 59vh;
+}
+
+.gsaft {
+  position: absolute;
+  width: 31.15vh;
+  height: 29.27vh;
+  left: 62.68vh;
+  top: 59vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.container:hover .gsaft {
+  opacity: 1;
+}
+
+.gstext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.container:hover .gstext {
+  opacity: 1;
+}
+
+.container:hover .clickmessage {
+  opacity: 1;
+}
+
+/*양천구*/
+.yccontainer:hover .clickmessage {
+  opacity: 1;
+}
+.yccontainer {
+}
+.yangcheon {
+  position: absolute;
+  width: 18.96vh;
+  height: 16.45vh;
+  left: 77.01vh;
+  top: 80.27vh;
+}
+
+.yangcheonaft {
+  position: absolute;
+  width: 18.96vh;
+  height: 16.45vh;
+  left: 77.01vh;
+  top: 80.27vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.yccontainer:hover .yangcheonaft {
+  opacity: 1;
+}
+
+.yctext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.yccontainer:hover .yctext {
+  opacity: 1;
+}
+
+/*구로구*/
+.grcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.guro {
+  position: absolute;
+  width: 182px;
+  height: 126.5px;
+  left: 596px;
+  top: 745.5px;
+  /* surface */
+  transform: rotate(1deg);
+}
+
+.grcontainer {
+}
+
+.guroaft {
+  position: absolute;
+  width: 182px;
+  height: 126.5px;
+  left: 596px;
+  top: 745.5px;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.grcontainer:hover .guroaft {
+  opacity: 1;
+}
+
+.grtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.grcontainer:hover .grtext {
+  opacity: 1;
+}
+
+/*영등포구*/
+.ydpcontainer:hover .clickmessage {
+  opacity: 1;
+  left: 1540px;
+}
+.youngdeongpo {
+  position: absolute;
+  height: 27.26vh;
+  left: 93.09vh;
+  top: 78.76vh;
+}
+.ydpcontainer {
+}
+
+.youngdeongpoaft {
+  position: absolute;
+  width: 19.59vh;
+  height: 27.26vh;
+  left: 93.09vh;
+  top: 78.76vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.ydpcontainer:hover .youngdeongpoaft {
+  opacity: 1;
+}
+
+.ydptext {
+  position: absolute;
+  height: 30px;
+  left: 1431px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.ydpcontainer:hover .ydptext {
+  opacity: 1;
+}
+
+/*동작구*/
+.djcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.dongjak {
+  position: absolute;
+  width: 22.67vh;
+  height: 16.52vh;
+  left: 100vh;
+  top: 92.399vh;
+  /* surface */
+}
+
+.djcontainer {
+}
+
+.dongjakaft {
+  position: absolute;
+  width: 22.67vh;
+  height: 16.52vh;
+  left: 100vh;
+  top: 92.399vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.djcontainer:hover .dongjakaft {
+  opacity: 1;
+}
+
+.djtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.djcontainer:hover .djtext {
+  opacity: 1;
+}
+
+/*관악구*/
+.gacontainer:hover .clickmessage {
+  opacity: 1;
+}
+.gwanak {
+  position: absolute;
+  width: 24.62vh;
+  height: 21.23vh;
+  left: 100.5vh;
+  top: 101vh;
+}
+.gacontainer {
+}
+
+.gwanakaft {
+  position: absolute;
+  width: 24.62vh;
+  height: 21.23vh;
+  left: 100.5vh;
+  top: 101vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gacontainer:hover .gwanakaft {
+  opacity: 1;
+}
+
+.gatext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gacontainer:hover .gatext {
+  opacity: 1;
+}
+
+/*금천구*/
+.gccontainer:hover .clickmessage {
+  opacity: 1;
+}
+.geomcheon {
+  position: absolute;
+  width: 14.25vh;
+  height: 19.28vh;
+  left: 91.5vh;
+  top: 103.5vh;
+}
+
+.gccontainer {
+}
+
+.geomcheonaft {
+  position: absolute;
+  width: 14.25vh;
+  height: 19.28vh;
+  left: 91.5vh;
+  top: 103.5vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gccontainer:hover .geomcheonaft {
+  opacity: 1;
+}
+
+.gctext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gccontainer:hover .gctext {
+  opacity: 1;
+}
+
+/*서초구*/
+.sccontainer:hover .clickmessage {
+  opacity: 1;
+}
+.seocho {
+  position: absolute;
+  width: 35.05vh;
+  height: 36.62vh;
+  left: 119vh;
+  top: 90.07vh;
+}
+
+.sccontainer {
+}
+
+.seochoaft {
+  position: absolute;
+  width: 35.05vh;
+  height: 36.62vh;
+  left: 119vh;
+  top: 90.07vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.sccontainer:hover .seochoaft {
+  opacity: 1;
+}
+
+.sctext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.sccontainer:hover .sctext {
+  opacity: 1;
+}
+
+/*강남구*/
+.gncontainer:hover .clickmessage {
+  opacity: 1;
+}
+.gangnam {
+  position: absolute;
+  width: 31.7211vh;
+  height: 28.957vh;
+  left: 129.8vh;
+  top: 88.06vh;
+}
+
+.gncontainer {
+}
+
+.gangnamaft {
+  position: absolute;
+  width: 31.7211vh;
+  height: 28.957vh;
+  left: 129.8vh;
+  top: 88.06vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gncontainer:hover .gangnamaft {
+  opacity: 1;
+}
+
+.gntext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gncontainer:hover .gntext {
+  opacity: 1;
+}
+
+/*송파구*/
+.spcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.songpa {
+  position: absolute;
+  width: 25.188vh;
+  height: 30.77vh;
+  left: 145vh;
+  top: 83.1658vh;
+}
+
+.container {
+}
+
+.songpaaft {
+  position: absolute;
+  width: 25.188vh;
+  height: 30.77vh;
+  left: 145vh;
+  top: 83.1658vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.spcontainer:hover .songpaaft {
+  opacity: 1;
+}
+
+.sptext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.spcontainer:hover .sptext {
+  opacity: 1;
+}
+
+/*강동구*/
+.gdcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.gangdong {
+  position: absolute;
+  width: 19.221vh;
+  height: 22.613vh;
+  left: 157.8vh;
+  top: 71.4vh;
+}
+
+.gdcontainer {
+}
+
+.gangdongaft {
+  position: absolute;
+  width: 19.221vh;
+  height: 22.613vh;
+  left: 157.8vh;
+  top: 71.4vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gdcontainer:hover .gangdongaft {
+  opacity: 1;
+}
+
+.gdtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+  color: #ffffff;
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gdcontainer:hover .gdtext {
+  opacity: 1;
+}
+
+/*마포구*/
+.mpcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.mapo {
+  position: absolute;
+  width: 30.2763vh;
+  height: 24.246vh;
+  left: 87.1859vh;
+  top: 63.3165vh;
+}
+
+.mpcontainer {
+}
+
+.mapoaft {
+  position: absolute;
+  width: 30.2763vh;
+  height: 24.246vh;
+  left: 87.1859vh;
+  top: 63.3165vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.mpcontainer:hover .mapoaft {
+  opacity: 1;
+}
+
+.mptext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.mpcontainer:hover .mptext {
+  opacity: 1;
+}
+
+/*용산구*/
+.yscontainer:hover .clickmessage {
+  opacity: 1;
+}
+.yongsan {
+  position: absolute;
+  width: 19.2839vh;
+  height: 15.012vh;
+  left: 111.8vh;
+  top: 79vh;
+}
+
+.yscontainer {
+}
+
+.yongsanaft {
+  position: absolute;
+  width: 19.2839vh;
+  height: 15.012vh;
+  left: 111.8vh;
+  top: 79vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.yscontainer:hover .yongsanaft {
+  opacity: 1;
+}
+
+.ystext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.yscontainer:hover .ystext {
+  opacity: 1;
+}
+
+/*중구*/
+.jcontainer:hover .clickmessage {
+  opacity: 1;
+  left: 1485px;
+}
+.jung {
+  position: absolute;
+  width: 18.21vh;
+  height: 9.48vh;
+  left: 115.6vh;
+  top: 72.9vh;
+}
+
+.jcontainer {
+}
+
+.jungaft {
+  position: absolute;
+  width: 18.21vh;
+  height: 9.48vh;
+  left: 115.6vh;
+  top: 72.9vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.jcontainer:hover .jungaft {
+  opacity: 1;
+}
+
+.jtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.jcontainer:hover .jtext {
+  opacity: 1;
+}
+
+/*성동구*/
+.sdcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.seongdong {
+  position: absolute;
+  width: 17.148vh;
+  height: 15.829vh;
+  left: 129.4vh;
+  top: 72.92vh;
+}
+
+.sdcontainer {
+}
+
+.seongdongaft {
+  position: absolute;
+  width: 17.148vh;
+  height: 15.829vh;
+  left: 129.4vh;
+  top: 72.92vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.sdcontainer:hover .seongdongaft {
+  opacity: 1;
+}
+
+.sdtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.sdcontainer:hover .sdtext {
+  opacity: 1;
+}
+
+/*광진구*/
+.gjcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.gwangjin {
+  position: absolute;
+  width: 13.944vh;
+  height: 17.71h;
+  left: 142.8vh;
+  top: 71.98vh;
+}
+
+.gjcontainer {
+}
+
+.gwangjinaft {
+  position: absolute;
+  width: 13.944vh;
+  height: 17.71h;
+  left: 142.8vh;
+  top: 71.98vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gjcontainer:hover .gwangjinaft {
+  opacity: 1;
+}
+
+.gjtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gjcontainer:hover .gjtext {
+  opacity: 1;
+}
+
+/*중랑구*/
+.jrcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.jungrang {
+  position: absolute;
+  width: 104px;
+  height: 152px;
+  left: 147vh;
+  top: 54.5vh;
+}
+
+.jrcontainer {
+}
+
+.jungrangaft {
+  position: absolute;
+  width: 104px;
+  height: 152px;
+  left: 147vh;
+  top: 54.5vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.jrcontainer:hover .jungrangaft {
+  opacity: 1;
+}
+
+.jrtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.jrcontainer:hover .jrtext {
+  opacity: 1;
+}
+
+/*은평구*/
+.epcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.eunpyeong {
+  position: absolute;
+  width: 23.11vh;
+  height: 30.59vh;
+  left: 96vh;
+  top: 39.8vh;
+}
+
+.epcontainer {
+}
+
+.eunpyeongaft {
+  position: absolute;
+  width: 23.11vh;
+  height: 30.59vh;
+  left: 96vh;
+  top: 39.8vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.epcontainer:hover .eunpyeongaft {
+  opacity: 1;
+}
+
+.eptext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.epcontainer:hover .eptext {
+  opacity: 1;
+}
+
+/*서대문구*/
+.sdmcontainer:hover .clickmessage {
+  opacity: 1;
+  left: 1540px;
+}
+.seodeamoon {
+  position: absolute;
+  width: 16.89vh;
+  height: 18.02vh;
+  left: 101.7vh;
+  top: 60vh;
+}
+
+.sdmcontainer {
+}
+
+.seodeamoonaft {
+  position: absolute;
+  width: 16.89vh;
+  height: 18.02vh;
+  left: 101.7vh;
+  top: 60vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.sdmcontainer:hover .seodeamoonaft {
+  opacity: 1;
+}
+
+.sdmtext {
+  position: absolute;
+  height: 30px;
+  left: 1431px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.sdmcontainer:hover .sdmtext {
+  opacity: 1;
+}
+
+/*종로구*/
+.jrcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.jongro {
+  position: absolute;
+  width: 19.53vh;
+  height: 25.81vh;
+  left: 114.7vh;
+  top: 49vh;
+}
+
+.jrcontainer {
+}
+
+.jongroaft {
+  position: absolute;
+  width: 19.53vh;
+  height: 25.81vh;
+  left: 114.7vh;
+  top: 49vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.jrcontainer:hover .jongroaft {
+  opacity: 1;
+}
+
+.jrtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.jrcontainer:hover .jrtext {
+  opacity: 1;
+}
+
+/*동대문구*/
+.ddmcontainer:hover .clickmessage {
+  opacity: 1;
+  left: 1540px;
+}
+.dongdeamoon {
+  position: absolute;
+  width: 15.13vh;
+  height: 17.46vh;
+  left: 133.5vh;
+  top: 60.4vh;
+}
+
+.ddmcontainer {
+}
+
+.dongdeamoonaft {
+  position: absolute;
+  width: 15.13vh;
+  height: 17.46vh;
+  left: 133.5vh;
+  top: 60.4vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.ddmcontainer:hover .dongdeamoonaft {
+  opacity: 1;
+}
+
+.ddmtext {
+  position: absolute;
+  height: 30px;
+  left: 1431px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.ddmcontainer:hover .ddmtext {
+  opacity: 1;
+}
+
+/*성북구*/
+.sbcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.seongbook {
+  position: absolute;
+  width: 27.82vh;
+  height: 24.05vh;
+  left: 120vh;
+  top: 47.5vh;
+}
+
+.sbcontainer {
+}
+
+.seongbookaft {
+  position: absolute;
+  width: 27.82vh;
+  height: 24.05vh;
+  left: 120vh;
+  top: 47.5vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.sbcontainer:hover .seongbookaft {
+  opacity: 1;
+}
+
+.sbtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.sbcontainer:hover .sbtext {
+  opacity: 1;
+}
+
+/*강북구*/
+.gbcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.gangbook {
+  position: absolute;
+  width: 18.71vh;
+  height: 28.26vh;
+  left: 123.5vh;
+  top: 29.89vh;
+}
+
+.gbcontainer {
+}
+
+.gangbookaft {
+  position: absolute;
+  width: 18.71vh;
+  height: 28.26vh;
+  left: 123.5vh;
+  top: 29.89vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gbcontainer:hover .gangbookaft {
+  opacity: 1;
+}
+
+.gbtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.gbcontainer:hover .gbtext {
+  opacity: 1;
+}
+
+/*노원구*/
+.nocontainer:hover .clickmessage {
+  opacity: 1;
+}
+.noone {
+  position: absolute;
+  width: 19.34vh;
+  height: 32.66vh;
+  left: 140vh;
+  top: 25vh;
+}
+
+.nocontainer {
+}
+
+.nooneaft {
+  position: absolute;
+  width: 19.34vh;
+  height: 32.66vh;
+  left: 140vh;
+  top: 25vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.nocontainer:hover .nooneaft {
+  opacity: 1;
+}
+
+.notext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.nocontainer:hover .notext {
+  opacity: 1;
+}
+
+/*도봉구*/
+.dbcontainer:hover .clickmessage {
+  opacity: 1;
+}
+.dobong {
+  position: absolute;
+  width: 13.505vh;
+  height: 26.19vh;
+  left: 130vh;
+  top: 24.1vh;
+}
+
+.dbcontainer {
+}
+
+.dobongaft {
+  position: absolute;
+  height: 26.19vh;
+  left: 130vh;
+  top: 24.1vh;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.dbcontainer:hover .dobongaft {
+  opacity: 1;
+}
+
+.dbtext {
+  position: absolute;
+  height: 30px;
+  left: 1471px;
+  top: 525px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  /* identical to box height, or 33% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.dbcontainer:hover .dbtext {
+  opacity: 1;
+}
+
+.index1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 210px;
+  top: 432px;
+
+  background: #c22c22;
+  /* surface */
+
+  border: 4px solid #ffffff;
+}
+
+.rate1 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  left: 297px;
+  top: 447px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  color: #c22c22;
+}
+.index2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 210px;
+  top: 510px;
+
+  background: #e48680;
+  /* surface */
+
+  border: 4px solid #ffffff;
+}
+
+.rate2 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  left: 297px;
+  top: 526px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  color: #c22c22;
+}
+
+.index3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 210px;
+  top: 589px;
+
+  background: #ffb8b4;
+  /* surface */
+
+  border: 4px solid #ffffff;
+}
+
+.rate3 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  left: 297px;
+  top: 605px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  color: #c22c22;
+}

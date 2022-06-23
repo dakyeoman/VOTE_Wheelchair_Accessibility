@@ -1,0 +1,113 @@
+.sayHi {
+  position: absolute;
+  width: 1377px;
+  height: 240px;
+  left: 272px;
+  top: 167px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+
+  color: #000000;
+}
+.persona1 {
+  position: absolute;
+  height: 64vh;
+  left: 20vh;
+  top: 72vh;
+}
+
+.persona2 {
+  position: absolute;
+  height: 64vh;
+  left: 95vh;
+  top: 72vh;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.persona3 {
+  position: absolute;
+  height: 64vh;
+  left: 170vh;
+  top: 72vh;
+}
+
+.botton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 6px 6px 8px;
+
+  position: absolute;
+  width: 28.12vh;
+  height: 7.04vh;
+  left: 30vh;
+  top: 58.41vh;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.talk {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  /* identical to box height, or 50% */
+
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+
+  /* 01. Primary/600 */
+
+  color: white;
+}
+
+.loc2 {
+  left: 107vh;
+}
+
+.loc3 {
+  left: 182vh;
+}
+
+.personas {
+}
+.clickToProceed {
+  position: absolute;
+  width: 23.49vh;
+  height: 3.76vh;
+  left: 190.43vh;
+  top: 50.51vh;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.01vh;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #5e48b6;
+}
+
+.ellipseProceed {
+  position: absolute;
+  width: 3.76vh;
+  height: 3.76vh;
+  left: 184.53vh;
+  top: 50.2vh;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  border-color: #5e48b6;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 30px;
+}

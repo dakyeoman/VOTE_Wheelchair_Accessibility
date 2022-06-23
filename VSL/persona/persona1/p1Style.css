@@ -106,7 +106,7 @@
   /* 제가 휠체어를 타고 있어서 놀라셨나요? */
   position: absolute;
   height: 3.76vh;
-  left: 63.56vh;
+  left: 370px;
   top: 24.69vh;
   font-family: "Roboto";
   font-style: normal;
@@ -326,7 +326,7 @@ a {
   position: absolute;
   height: 64vh;
   left: 96vh;
-  s
+  
 }
 .goBack{position: absolute;
   width: 187px;
