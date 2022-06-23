@@ -1,6 +1,5 @@
 .main_title {
   position: absolute;
-  width: 940px;
   height: 30px;
   left: 490px;
   top: 553px;
@@ -16,7 +15,6 @@
 }
 .sub_title {
   position: absolute;
-  width: 431px;
   height: 30px;
   left: 745px;
   top: 389px;
@@ -33,7 +31,6 @@
 
 .user-answer_no {
   position: absolute;
-  width: 121px;
   height: 30px;
   left: 584px;
   top: 856px;
@@ -50,7 +47,6 @@
 
 .user-answer_no2 {
   position: absolute;
-  width: 121px;
   height: 30px;
   left: 584px;
   top: 856px;
